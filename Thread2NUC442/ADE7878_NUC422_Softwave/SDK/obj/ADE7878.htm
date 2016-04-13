@@ -1,0 +1,2229 @@
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+<html><head>
+<title>Static Call Graph - [.\obj\ADE7878.axf]</title></head>
+<body><HR>
+<H1>Static Call Graph for image .\obj\ADE7878.axf</H1><HR>
+<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 4.1 [Build 481]: Last Updated: Wed Apr 13 08:42:43 2016
+<BR><P>
+<H3>Maximum Stack Usage =        248 bytes + Unknown(Untraceable Function Pointers)</H3><H3>
+Call chain for Maximum Stack Depth:</H3>
+main &rArr; rtthread_startup &rArr; rt_application_init &rArr; rt_thread_create &rArr; rt_object_allocate &rArr; rt_malloc &rArr; rt_sem_take &rArr; rt_ipc_list_suspend &rArr; rt_thread_suspend &rArr; rt_schedule_remove_thread
+<P>
+<H3>
+Function Pointers
+</H3><UL>
+ <LI><a href="#[1]">eBTFuncReadHoldingRegister</a> from btfunc.o(i.eBTFuncReadHoldingRegister) referenced 2 times from mb.o(.data)
+ <LI><a href="#[2]">eMBFuncReportSlaveID</a> from mbfuncother.o(i.eMBFuncReportSlaveID) referenced 2 times from mb.o(.data)
+ <LI><a href="#[3]">eMBFuncReadHoldingRegister</a> from mbfuncholding.o(i.eMBFuncReadHoldingRegister) referenced 2 times from mb.o(.data)
+ <LI><a href="#[4]">eMBFuncWriteHoldingRegister</a> from mbfuncholding.o(i.eMBFuncWriteHoldingRegister) referenced 2 times from mb.o(.data)
+ <LI><a href="#[5]">eMBFuncReadWriteMultipleHoldingRegister</a> from mbfuncholding.o(i.eMBFuncReadWriteMultipleHoldingRegister) referenced 2 times from mb.o(.data)
+ <LI><a href="#[6]">Reset_Handler</a> from startup_nuc472_442.o(.text) referenced from startup_nuc472_442.o(RESET)
+ <LI><a href="#[7]">NMI_Handler</a> from startup_nuc472_442.o(.text) referenced from startup_nuc472_442.o(RESET)
+ <LI><a href="#[8]">HardFault_Handler</a> from context_rvds.o(.text) referenced from startup_nuc472_442.o(RESET)
+ <LI><a href="#[9]">MemManage_Handler</a> from startup_nuc472_442.o(.text) referenced from startup_nuc472_442.o(RESET)
+ <LI><a href="#[a]">BusFault_Handler</a> from startup_nuc472_442.o(.text) referenced from startup_nuc472_442.o(RESET)
+ <LI><a href="#[b]">UsageFault_Handler</a> from startup_nuc472_442.o(.text) referenced from startup_nuc472_442.o(RESET)
+ <LI><a href="#[c]">SVC_Handler</a> from startup_nuc472_442.o(.text) referenced from startup_nuc472_442.o(RESET)
+ <LI><a href="#[d]">DebugMon_Handler</a> from startup_nuc472_442.o(.text) referenced from startup_nuc472_442.o(RESET)
+ <LI><a href="#[e]">PendSV_Handler</a> from context_rvds.o(.text) referenced from startup_nuc472_442.o(RESET)
+ <LI><a href="#[f]">SysTick_Handler</a> from main.o(i.SysTick_Handler) referenced from startup_nuc472_442.o(RESET)
+ <LI><a href="#[10]">BOD_IRQHandler</a> from startup_nuc472_442.o(.text) referenced from startup_nuc472_442.o(RESET)
+ <LI><a href="#[11]">IRC_IRQHandler</a> from startup_nuc472_442.o(.text) referenced from startup_nuc472_442.o(RESET)
+ <LI><a href="#[12]">PWRWU_IRQHandler</a> from startup_nuc472_442.o(.text) referenced from startup_nuc472_442.o(RESET)
+ <LI><a href="#[13]">SRAMF_IRQHandler</a> from startup_nuc472_442.o(.text) referenced from startup_nuc472_442.o(RESET)
+ <LI><a href="#[14]">CLKF_IRQHandler</a> from startup_nuc472_442.o(.text) referenced from startup_nuc472_442.o(RESET)
+ <LI><a href="#[15]">Default_Handler</a> from startup_nuc472_442.o(.text) referenced 46 times from startup_nuc472_442.o(RESET)
+ <LI><a href="#[16]">RTC_IRQHandler</a> from startup_nuc472_442.o(.text) referenced from startup_nuc472_442.o(RESET)
+ <LI><a href="#[17]">TAMPER_IRQHandler</a> from startup_nuc472_442.o(.text) referenced from startup_nuc472_442.o(RESET)
+ <LI><a href="#[18]">EINT0_IRQHandler</a> from startup_nuc472_442.o(.text) referenced from startup_nuc472_442.o(RESET)
+ <LI><a href="#[19]">EINT1_IRQHandler</a> from startup_nuc472_442.o(.text) referenced from startup_nuc472_442.o(RESET)
+ <LI><a href="#[1a]">EINT2_IRQHandler</a> from startup_nuc472_442.o(.text) referenced from startup_nuc472_442.o(RESET)
+ <LI><a href="#[1b]">EINT3_IRQHandler</a> from startup_nuc472_442.o(.text) referenced from startup_nuc472_442.o(RESET)
+ <LI><a href="#[1c]">EINT4_IRQHandler</a> from startup_nuc472_442.o(.text) referenced from startup_nuc472_442.o(RESET)
+ <LI><a href="#[1d]">EINT5_IRQHandler</a> from startup_nuc472_442.o(.text) referenced from startup_nuc472_442.o(RESET)
+ <LI><a href="#[1e]">EINT6_IRQHandler</a> from startup_nuc472_442.o(.text) referenced from startup_nuc472_442.o(RESET)
+ <LI><a href="#[1f]">EINT7_IRQHandler</a> from startup_nuc472_442.o(.text) referenced from startup_nuc472_442.o(RESET)
+ <LI><a href="#[20]">GPA_IRQHandler</a> from startup_nuc472_442.o(.text) referenced from startup_nuc472_442.o(RESET)
+ <LI><a href="#[21]">GPB_IRQHandler</a> from ade7878_int.o(i.GPB_IRQHandler) referenced from startup_nuc472_442.o(RESET)
+ <LI><a href="#[22]">GPC_IRQHandler</a> from startup_nuc472_442.o(.text) referenced from startup_nuc472_442.o(RESET)
+ <LI><a href="#[23]">GPD_IRQHandler</a> from startup_nuc472_442.o(.text) referenced from startup_nuc472_442.o(RESET)
+ <LI><a href="#[24]">GPE_IRQHandler</a> from startup_nuc472_442.o(.text) referenced from startup_nuc472_442.o(RESET)
+ <LI><a href="#[25]">GPF_IRQHandler</a> from startup_nuc472_442.o(.text) referenced from startup_nuc472_442.o(RESET)
+ <LI><a href="#[26]">GPG_IRQHandler</a> from startup_nuc472_442.o(.text) referenced from startup_nuc472_442.o(RESET)
+ <LI><a href="#[29]">TMR0_IRQHandler</a> from porttimer.o(i.TMR0_IRQHandler) referenced from startup_nuc472_442.o(RESET)
+ <LI><a href="#[27]">GPH_IRQHandler</a> from startup_nuc472_442.o(.text) referenced from startup_nuc472_442.o(RESET)
+ <LI><a href="#[28]">GPI_IRQHandler</a> from startup_nuc472_442.o(.text) referenced from startup_nuc472_442.o(RESET)
+ <LI><a href="#[2a]">TMR1_IRQHandler</a> from startup_nuc472_442.o(.text) referenced from startup_nuc472_442.o(RESET)
+ <LI><a href="#[2b]">TMR2_IRQHandler</a> from startup_nuc472_442.o(.text) referenced from startup_nuc472_442.o(RESET)
+ <LI><a href="#[2c]">TMR3_IRQHandler</a> from startup_nuc472_442.o(.text) referenced from startup_nuc472_442.o(RESET)
+ <LI><a href="#[2d]">PDMA_IRQHandler</a> from startup_nuc472_442.o(.text) referenced from startup_nuc472_442.o(RESET)
+ <LI><a href="#[2e]">ADC_IRQHandler</a> from startup_nuc472_442.o(.text) referenced from startup_nuc472_442.o(RESET)
+ <LI><a href="#[2f]">WDT_IRQHandler</a> from startup_nuc472_442.o(.text) referenced from startup_nuc472_442.o(RESET)
+ <LI><a href="#[30]">WWDT_IRQHandler</a> from startup_nuc472_442.o(.text) referenced from startup_nuc472_442.o(RESET)
+ <LI><a href="#[31]">EADC0_IRQHandler</a> from startup_nuc472_442.o(.text) referenced from startup_nuc472_442.o(RESET)
+ <LI><a href="#[32]">EADC1_IRQHandler</a> from startup_nuc472_442.o(.text) referenced from startup_nuc472_442.o(RESET)
+ <LI><a href="#[33]">EADC2_IRQHandler</a> from startup_nuc472_442.o(.text) referenced from startup_nuc472_442.o(RESET)
+ <LI><a href="#[34]">EADC3_IRQHandler</a> from startup_nuc472_442.o(.text) referenced from startup_nuc472_442.o(RESET)
+ <LI><a href="#[35]">ACMP_IRQHandler</a> from startup_nuc472_442.o(.text) referenced from startup_nuc472_442.o(RESET)
+ <LI><a href="#[36]">OPA0_IRQHandler</a> from startup_nuc472_442.o(.text) referenced from startup_nuc472_442.o(RESET)
+ <LI><a href="#[37]">OPA1_IRQHandler</a> from startup_nuc472_442.o(.text) referenced from startup_nuc472_442.o(RESET)
+ <LI><a href="#[38]">ICAP0_IRQHandler</a> from startup_nuc472_442.o(.text) referenced from startup_nuc472_442.o(RESET)
+ <LI><a href="#[39]">ICAP1_IRQHandler</a> from startup_nuc472_442.o(.text) referenced from startup_nuc472_442.o(RESET)
+ <LI><a href="#[3a]">PWM0CH0_IRQHandler</a> from startup_nuc472_442.o(.text) referenced from startup_nuc472_442.o(RESET)
+ <LI><a href="#[3b]">PWM0CH1_IRQHandler</a> from startup_nuc472_442.o(.text) referenced from startup_nuc472_442.o(RESET)
+ <LI><a href="#[3c]">PWM0CH2_IRQHandler</a> from startup_nuc472_442.o(.text) referenced from startup_nuc472_442.o(RESET)
+ <LI><a href="#[3d]">PWM0CH3_IRQHandler</a> from startup_nuc472_442.o(.text) referenced from startup_nuc472_442.o(RESET)
+ <LI><a href="#[3e]">PWM0CH4_IRQHandler</a> from startup_nuc472_442.o(.text) referenced from startup_nuc472_442.o(RESET)
+ <LI><a href="#[3f]">PWM0CH5_IRQHandler</a> from startup_nuc472_442.o(.text) referenced from startup_nuc472_442.o(RESET)
+ <LI><a href="#[40]">PWM0_BRK_IRQHandler</a> from startup_nuc472_442.o(.text) referenced from startup_nuc472_442.o(RESET)
+ <LI><a href="#[41]">QEI0_IRQHandler</a> from startup_nuc472_442.o(.text) referenced from startup_nuc472_442.o(RESET)
+ <LI><a href="#[42]">PWM1CH0_IRQHandler</a> from startup_nuc472_442.o(.text) referenced from startup_nuc472_442.o(RESET)
+ <LI><a href="#[43]">PWM1CH1_IRQHandler</a> from startup_nuc472_442.o(.text) referenced from startup_nuc472_442.o(RESET)
+ <LI><a href="#[44]">PWM1CH2_IRQHandler</a> from startup_nuc472_442.o(.text) referenced from startup_nuc472_442.o(RESET)
+ <LI><a href="#[45]">PWM1CH3_IRQHandler</a> from startup_nuc472_442.o(.text) referenced from startup_nuc472_442.o(RESET)
+ <LI><a href="#[46]">PWM1CH4_IRQHandler</a> from startup_nuc472_442.o(.text) referenced from startup_nuc472_442.o(RESET)
+ <LI><a href="#[47]">PWM1CH5_IRQHandler</a> from startup_nuc472_442.o(.text) referenced from startup_nuc472_442.o(RESET)
+ <LI><a href="#[48]">PWM1_BRK_IRQHandler</a> from startup_nuc472_442.o(.text) referenced from startup_nuc472_442.o(RESET)
+ <LI><a href="#[49]">QEI1_IRQHandler</a> from startup_nuc472_442.o(.text) referenced from startup_nuc472_442.o(RESET)
+ <LI><a href="#[4a]">EPWM0_IRQHandler</a> from startup_nuc472_442.o(.text) referenced from startup_nuc472_442.o(RESET)
+ <LI><a href="#[4b]">EPWM0BRK_IRQHandler</a> from startup_nuc472_442.o(.text) referenced from startup_nuc472_442.o(RESET)
+ <LI><a href="#[4c]">EPWM1_IRQHandler</a> from startup_nuc472_442.o(.text) referenced from startup_nuc472_442.o(RESET)
+ <LI><a href="#[4d]">EPWM1BRK_IRQHandler</a> from startup_nuc472_442.o(.text) referenced from startup_nuc472_442.o(RESET)
+ <LI><a href="#[4e]">USBD_IRQHandler</a> from startup_nuc472_442.o(.text) referenced from startup_nuc472_442.o(RESET)
+ <LI><a href="#[4f]">USBH_IRQHandler</a> from startup_nuc472_442.o(.text) referenced from startup_nuc472_442.o(RESET)
+ <LI><a href="#[50]">USB_OTG_IRQHandler</a> from startup_nuc472_442.o(.text) referenced from startup_nuc472_442.o(RESET)
+ <LI><a href="#[51]">EMAC_TX_IRQHandler</a> from startup_nuc472_442.o(.text) referenced from startup_nuc472_442.o(RESET)
+ <LI><a href="#[52]">EMAC_RX_IRQHandler</a> from startup_nuc472_442.o(.text) referenced from startup_nuc472_442.o(RESET)
+ <LI><a href="#[53]">SPI0_IRQHandler</a> from startup_nuc472_442.o(.text) referenced from startup_nuc472_442.o(RESET)
+ <LI><a href="#[54]">SPI1_IRQHandler</a> from startup_nuc472_442.o(.text) referenced from startup_nuc472_442.o(RESET)
+ <LI><a href="#[55]">SPI2_IRQHandler</a> from startup_nuc472_442.o(.text) referenced from startup_nuc472_442.o(RESET)
+ <LI><a href="#[56]">SPI3_IRQHandler</a> from startup_nuc472_442.o(.text) referenced from startup_nuc472_442.o(RESET)
+ <LI><a href="#[57]">UART0_IRQHandler</a> from startup_nuc472_442.o(.text) referenced from startup_nuc472_442.o(RESET)
+ <LI><a href="#[58]">UART1_IRQHandler</a> from startup_nuc472_442.o(.text) referenced from startup_nuc472_442.o(RESET)
+ <LI><a href="#[59]">UART2_IRQHandler</a> from startup_nuc472_442.o(.text) referenced from startup_nuc472_442.o(RESET)
+ <LI><a href="#[5a]">UART3_IRQHandler</a> from portserial.o(i.UART3_IRQHandler) referenced from startup_nuc472_442.o(RESET)
+ <LI><a href="#[5b]">UART4_IRQHandler</a> from startup_nuc472_442.o(.text) referenced from startup_nuc472_442.o(RESET)
+ <LI><a href="#[5c]">UART5_IRQHandler</a> from startup_nuc472_442.o(.text) referenced from startup_nuc472_442.o(RESET)
+ <LI><a href="#[5d]">I2C0_IRQHandler</a> from startup_nuc472_442.o(.text) referenced from startup_nuc472_442.o(RESET)
+ <LI><a href="#[5e]">I2C1_IRQHandler</a> from startup_nuc472_442.o(.text) referenced from startup_nuc472_442.o(RESET)
+ <LI><a href="#[5f]">I2C2_IRQHandler</a> from startup_nuc472_442.o(.text) referenced from startup_nuc472_442.o(RESET)
+ <LI><a href="#[60]">I2C3_IRQHandler</a> from startup_nuc472_442.o(.text) referenced from startup_nuc472_442.o(RESET)
+ <LI><a href="#[61]">I2C4_IRQHandler</a> from startup_nuc472_442.o(.text) referenced from startup_nuc472_442.o(RESET)
+ <LI><a href="#[62]">SC0_IRQHandler</a> from startup_nuc472_442.o(.text) referenced from startup_nuc472_442.o(RESET)
+ <LI><a href="#[63]">SC1_IRQHandler</a> from startup_nuc472_442.o(.text) referenced from startup_nuc472_442.o(RESET)
+ <LI><a href="#[64]">SC2_IRQHandler</a> from startup_nuc472_442.o(.text) referenced from startup_nuc472_442.o(RESET)
+ <LI><a href="#[65]">SC3_IRQHandler</a> from startup_nuc472_442.o(.text) referenced from startup_nuc472_442.o(RESET)
+ <LI><a href="#[66]">SC4_IRQHandler</a> from startup_nuc472_442.o(.text) referenced from startup_nuc472_442.o(RESET)
+ <LI><a href="#[67]">SC5_IRQHandler</a> from startup_nuc472_442.o(.text) referenced from startup_nuc472_442.o(RESET)
+ <LI><a href="#[68]">CAN0_IRQHandler</a> from startup_nuc472_442.o(.text) referenced from startup_nuc472_442.o(RESET)
+ <LI><a href="#[69]">CAN1_IRQHandler</a> from startup_nuc472_442.o(.text) referenced from startup_nuc472_442.o(RESET)
+ <LI><a href="#[6a]">I2S0_IRQHandler</a> from startup_nuc472_442.o(.text) referenced from startup_nuc472_442.o(RESET)
+ <LI><a href="#[6b]">I2S1_IRQHandler</a> from startup_nuc472_442.o(.text) referenced from startup_nuc472_442.o(RESET)
+ <LI><a href="#[6c]">SD_IRQHandler</a> from startup_nuc472_442.o(.text) referenced from startup_nuc472_442.o(RESET)
+ <LI><a href="#[6d]">PS2D_IRQHandler</a> from startup_nuc472_442.o(.text) referenced from startup_nuc472_442.o(RESET)
+ <LI><a href="#[6e]">CAP_IRQHandler</a> from startup_nuc472_442.o(.text) referenced from startup_nuc472_442.o(RESET)
+ <LI><a href="#[6f]">CRYPTO_IRQHandler</a> from startup_nuc472_442.o(.text) referenced from startup_nuc472_442.o(RESET)
+ <LI><a href="#[70]">CRC_IRQHandler</a> from startup_nuc472_442.o(.text) referenced from startup_nuc472_442.o(RESET)
+ <LI><a href="#[71]">main</a> from startup.o(i.main) referenced from entry7.o(.ARM.Collect$$$$00000007)
+ <LI><a href="#[72]">SystemInit</a> from system_nuc472_442.o(i.SystemInit) referenced from startup_nuc472_442.o(.text)
+ <LI><a href="#[73]">__main</a> from entry.o(.ARM.Collect$$$$00000000) referenced from startup_nuc472_442.o(.text)
+ <LI><a href="#[74]">_sputc</a> from printfa.o(i._sputc) referenced from printfa.o(i.__0sprintf)
+ <LI><a href="#[75]">rt_thread_exit</a> from thread.o(i.rt_thread_exit) referenced from thread.o(i._rt_thread_init)
+ <LI><a href="#[76]">rt_thread_timeout</a> from thread.o(i.rt_thread_timeout) referenced from thread.o(i._rt_thread_init)
+ <LI><a href="#[77]">eMBRTUStart</a> from mbrtu.o(i.eMBRTUStart) referenced from mb.o(i.eMBInit)
+ <LI><a href="#[78]">eMBRTUStop</a> from mbrtu.o(i.eMBRTUStop) referenced from mb.o(i.eMBInit)
+ <LI><a href="#[79]">eMBRTUSend</a> from mbrtu.o(i.eMBRTUSend) referenced from mb.o(i.eMBInit)
+ <LI><a href="#[7a]">eMBRTUReceive</a> from mbrtu.o(i.eMBRTUReceive) referenced from mb.o(i.eMBInit)
+ <LI><a href="#[7b]">xMBRTUReceiveFSM</a> from mbrtu.o(i.xMBRTUReceiveFSM) referenced from mb.o(i.eMBInit)
+ <LI><a href="#[7c]">xMBRTUTransmitFSM</a> from mbrtu.o(i.xMBRTUTransmitFSM) referenced from mb.o(i.eMBInit)
+ <LI><a href="#[7d]">xMBRTUTimerT35Expired</a> from mbrtu.o(i.xMBRTUTimerT35Expired) referenced from mb.o(i.eMBInit)
+ <LI><a href="#[7e]">rt_init_thread_entry</a> from application.o(i.rt_init_thread_entry) referenced from application.o(i.rt_application_init)
+ <LI><a href="#[7f]">rt_thread_entry_PowerMeasurment</a> from application.o(i.rt_thread_entry_PowerMeasurment) referenced from application.o(i.rt_application_init)
+ <LI><a href="#[80]">rt_thread_entry_Rs485comm</a> from application.o(i.rt_thread_entry_Rs485comm) referenced from application.o(i.rt_application_init)
+ <LI><a href="#[81]">rt_thread_idle_entry</a> from idle.o(i.rt_thread_idle_entry) referenced from idle.o(i.rt_thread_idle_init)
+</UL>
+<P>
+<H3>
+Global Symbols
+</H3>
+<P><STRONG><a name="[73]"></a>__main</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, entry.o(.ARM.Collect$$$$00000000))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc472_442.o(.text)
+</UL>
+<P><STRONG><a name="[1c9]"></a>_main_stk</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, entry2.o(.ARM.Collect$$$$00000001))
+
+<P><STRONG><a name="[82]"></a>_main_scatterload</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, entry5.o(.ARM.Collect$$$$00000004))
+<BR><BR>[Calls]<UL><LI><a href="#[83]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__scatterload
+</UL>
+
+<P><STRONG><a name="[91]"></a>__main_after_scatterload</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, entry5.o(.ARM.Collect$$$$00000004))
+<BR><BR>[Called By]<UL><LI><a href="#[83]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__scatterload
+</UL>
+
+<P><STRONG><a name="[1ca]"></a>_main_init</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, entry7.o(.ARM.Collect$$$$00000007))
+
+<P><STRONG><a name="[6]"></a>Reset_Handler</STRONG> (Thumb, 40 bytes, Stack size 0 bytes, startup_nuc472_442.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc472_442.o(RESET)
+</UL>
+<P><STRONG><a name="[7]"></a>NMI_Handler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, startup_nuc472_442.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc472_442.o(RESET)
+</UL>
+<P><STRONG><a name="[9]"></a>MemManage_Handler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, startup_nuc472_442.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc472_442.o(RESET)
+</UL>
+<P><STRONG><a name="[a]"></a>BusFault_Handler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, startup_nuc472_442.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc472_442.o(RESET)
+</UL>
+<P><STRONG><a name="[b]"></a>UsageFault_Handler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, startup_nuc472_442.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc472_442.o(RESET)
+</UL>
+<P><STRONG><a name="[c]"></a>SVC_Handler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, startup_nuc472_442.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc472_442.o(RESET)
+</UL>
+<P><STRONG><a name="[d]"></a>DebugMon_Handler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, startup_nuc472_442.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc472_442.o(RESET)
+</UL>
+<P><STRONG><a name="[35]"></a>ACMP_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_nuc472_442.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc472_442.o(RESET)
+</UL>
+<P><STRONG><a name="[2e]"></a>ADC_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_nuc472_442.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc472_442.o(RESET)
+</UL>
+<P><STRONG><a name="[10]"></a>BOD_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_nuc472_442.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc472_442.o(RESET)
+</UL>
+<P><STRONG><a name="[68]"></a>CAN0_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_nuc472_442.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc472_442.o(RESET)
+</UL>
+<P><STRONG><a name="[69]"></a>CAN1_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_nuc472_442.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc472_442.o(RESET)
+</UL>
+<P><STRONG><a name="[6e]"></a>CAP_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_nuc472_442.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc472_442.o(RESET)
+</UL>
+<P><STRONG><a name="[14]"></a>CLKF_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_nuc472_442.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc472_442.o(RESET)
+</UL>
+<P><STRONG><a name="[70]"></a>CRC_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_nuc472_442.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc472_442.o(RESET)
+</UL>
+<P><STRONG><a name="[6f]"></a>CRYPTO_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_nuc472_442.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc472_442.o(RESET)
+</UL>
+<P><STRONG><a name="[31]"></a>EADC0_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_nuc472_442.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc472_442.o(RESET)
+</UL>
+<P><STRONG><a name="[32]"></a>EADC1_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_nuc472_442.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc472_442.o(RESET)
+</UL>
+<P><STRONG><a name="[33]"></a>EADC2_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_nuc472_442.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc472_442.o(RESET)
+</UL>
+<P><STRONG><a name="[34]"></a>EADC3_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_nuc472_442.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc472_442.o(RESET)
+</UL>
+<P><STRONG><a name="[18]"></a>EINT0_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_nuc472_442.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc472_442.o(RESET)
+</UL>
+<P><STRONG><a name="[19]"></a>EINT1_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_nuc472_442.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc472_442.o(RESET)
+</UL>
+<P><STRONG><a name="[1a]"></a>EINT2_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_nuc472_442.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc472_442.o(RESET)
+</UL>
+<P><STRONG><a name="[1b]"></a>EINT3_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_nuc472_442.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc472_442.o(RESET)
+</UL>
+<P><STRONG><a name="[1c]"></a>EINT4_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_nuc472_442.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc472_442.o(RESET)
+</UL>
+<P><STRONG><a name="[1d]"></a>EINT5_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_nuc472_442.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc472_442.o(RESET)
+</UL>
+<P><STRONG><a name="[1e]"></a>EINT6_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_nuc472_442.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc472_442.o(RESET)
+</UL>
+<P><STRONG><a name="[1f]"></a>EINT7_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_nuc472_442.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc472_442.o(RESET)
+</UL>
+<P><STRONG><a name="[52]"></a>EMAC_RX_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_nuc472_442.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc472_442.o(RESET)
+</UL>
+<P><STRONG><a name="[51]"></a>EMAC_TX_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_nuc472_442.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc472_442.o(RESET)
+</UL>
+<P><STRONG><a name="[4b]"></a>EPWM0BRK_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_nuc472_442.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc472_442.o(RESET)
+</UL>
+<P><STRONG><a name="[4a]"></a>EPWM0_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_nuc472_442.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc472_442.o(RESET)
+</UL>
+<P><STRONG><a name="[4d]"></a>EPWM1BRK_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_nuc472_442.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc472_442.o(RESET)
+</UL>
+<P><STRONG><a name="[4c]"></a>EPWM1_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_nuc472_442.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc472_442.o(RESET)
+</UL>
+<P><STRONG><a name="[20]"></a>GPA_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_nuc472_442.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc472_442.o(RESET)
+</UL>
+<P><STRONG><a name="[22]"></a>GPC_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_nuc472_442.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc472_442.o(RESET)
+</UL>
+<P><STRONG><a name="[23]"></a>GPD_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_nuc472_442.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc472_442.o(RESET)
+</UL>
+<P><STRONG><a name="[24]"></a>GPE_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_nuc472_442.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc472_442.o(RESET)
+</UL>
+<P><STRONG><a name="[25]"></a>GPF_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_nuc472_442.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc472_442.o(RESET)
+</UL>
+<P><STRONG><a name="[26]"></a>GPG_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_nuc472_442.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc472_442.o(RESET)
+</UL>
+<P><STRONG><a name="[27]"></a>GPH_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_nuc472_442.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc472_442.o(RESET)
+</UL>
+<P><STRONG><a name="[28]"></a>GPI_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_nuc472_442.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc472_442.o(RESET)
+</UL>
+<P><STRONG><a name="[5d]"></a>I2C0_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_nuc472_442.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc472_442.o(RESET)
+</UL>
+<P><STRONG><a name="[5e]"></a>I2C1_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_nuc472_442.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc472_442.o(RESET)
+</UL>
+<P><STRONG><a name="[5f]"></a>I2C2_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_nuc472_442.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc472_442.o(RESET)
+</UL>
+<P><STRONG><a name="[60]"></a>I2C3_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_nuc472_442.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc472_442.o(RESET)
+</UL>
+<P><STRONG><a name="[61]"></a>I2C4_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_nuc472_442.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc472_442.o(RESET)
+</UL>
+<P><STRONG><a name="[6a]"></a>I2S0_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_nuc472_442.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc472_442.o(RESET)
+</UL>
+<P><STRONG><a name="[6b]"></a>I2S1_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_nuc472_442.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc472_442.o(RESET)
+</UL>
+<P><STRONG><a name="[38]"></a>ICAP0_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_nuc472_442.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc472_442.o(RESET)
+</UL>
+<P><STRONG><a name="[39]"></a>ICAP1_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_nuc472_442.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc472_442.o(RESET)
+</UL>
+<P><STRONG><a name="[11]"></a>IRC_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_nuc472_442.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc472_442.o(RESET)
+</UL>
+<P><STRONG><a name="[36]"></a>OPA0_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_nuc472_442.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc472_442.o(RESET)
+</UL>
+<P><STRONG><a name="[37]"></a>OPA1_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_nuc472_442.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc472_442.o(RESET)
+</UL>
+<P><STRONG><a name="[2d]"></a>PDMA_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_nuc472_442.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc472_442.o(RESET)
+</UL>
+<P><STRONG><a name="[6d]"></a>PS2D_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_nuc472_442.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc472_442.o(RESET)
+</UL>
+<P><STRONG><a name="[3a]"></a>PWM0CH0_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_nuc472_442.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc472_442.o(RESET)
+</UL>
+<P><STRONG><a name="[3b]"></a>PWM0CH1_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_nuc472_442.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc472_442.o(RESET)
+</UL>
+<P><STRONG><a name="[3c]"></a>PWM0CH2_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_nuc472_442.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc472_442.o(RESET)
+</UL>
+<P><STRONG><a name="[3d]"></a>PWM0CH3_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_nuc472_442.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc472_442.o(RESET)
+</UL>
+<P><STRONG><a name="[3e]"></a>PWM0CH4_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_nuc472_442.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc472_442.o(RESET)
+</UL>
+<P><STRONG><a name="[3f]"></a>PWM0CH5_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_nuc472_442.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc472_442.o(RESET)
+</UL>
+<P><STRONG><a name="[40]"></a>PWM0_BRK_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_nuc472_442.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc472_442.o(RESET)
+</UL>
+<P><STRONG><a name="[42]"></a>PWM1CH0_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_nuc472_442.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc472_442.o(RESET)
+</UL>
+<P><STRONG><a name="[43]"></a>PWM1CH1_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_nuc472_442.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc472_442.o(RESET)
+</UL>
+<P><STRONG><a name="[44]"></a>PWM1CH2_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_nuc472_442.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc472_442.o(RESET)
+</UL>
+<P><STRONG><a name="[45]"></a>PWM1CH3_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_nuc472_442.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc472_442.o(RESET)
+</UL>
+<P><STRONG><a name="[46]"></a>PWM1CH4_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_nuc472_442.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc472_442.o(RESET)
+</UL>
+<P><STRONG><a name="[47]"></a>PWM1CH5_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_nuc472_442.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc472_442.o(RESET)
+</UL>
+<P><STRONG><a name="[48]"></a>PWM1_BRK_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_nuc472_442.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc472_442.o(RESET)
+</UL>
+<P><STRONG><a name="[12]"></a>PWRWU_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_nuc472_442.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc472_442.o(RESET)
+</UL>
+<P><STRONG><a name="[41]"></a>QEI0_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_nuc472_442.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc472_442.o(RESET)
+</UL>
+<P><STRONG><a name="[49]"></a>QEI1_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_nuc472_442.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc472_442.o(RESET)
+</UL>
+<P><STRONG><a name="[16]"></a>RTC_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_nuc472_442.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc472_442.o(RESET)
+</UL>
+<P><STRONG><a name="[62]"></a>SC0_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_nuc472_442.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc472_442.o(RESET)
+</UL>
+<P><STRONG><a name="[63]"></a>SC1_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_nuc472_442.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc472_442.o(RESET)
+</UL>
+<P><STRONG><a name="[64]"></a>SC2_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_nuc472_442.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc472_442.o(RESET)
+</UL>
+<P><STRONG><a name="[65]"></a>SC3_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_nuc472_442.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc472_442.o(RESET)
+</UL>
+<P><STRONG><a name="[66]"></a>SC4_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_nuc472_442.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc472_442.o(RESET)
+</UL>
+<P><STRONG><a name="[67]"></a>SC5_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_nuc472_442.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc472_442.o(RESET)
+</UL>
+<P><STRONG><a name="[6c]"></a>SD_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_nuc472_442.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc472_442.o(RESET)
+</UL>
+<P><STRONG><a name="[53]"></a>SPI0_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_nuc472_442.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc472_442.o(RESET)
+</UL>
+<P><STRONG><a name="[54]"></a>SPI1_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_nuc472_442.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc472_442.o(RESET)
+</UL>
+<P><STRONG><a name="[55]"></a>SPI2_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_nuc472_442.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc472_442.o(RESET)
+</UL>
+<P><STRONG><a name="[56]"></a>SPI3_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_nuc472_442.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc472_442.o(RESET)
+</UL>
+<P><STRONG><a name="[13]"></a>SRAMF_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_nuc472_442.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc472_442.o(RESET)
+</UL>
+<P><STRONG><a name="[17]"></a>TAMPER_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_nuc472_442.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc472_442.o(RESET)
+</UL>
+<P><STRONG><a name="[2a]"></a>TMR1_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_nuc472_442.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc472_442.o(RESET)
+</UL>
+<P><STRONG><a name="[2b]"></a>TMR2_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_nuc472_442.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc472_442.o(RESET)
+</UL>
+<P><STRONG><a name="[2c]"></a>TMR3_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_nuc472_442.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc472_442.o(RESET)
+</UL>
+<P><STRONG><a name="[57]"></a>UART0_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_nuc472_442.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc472_442.o(RESET)
+</UL>
+<P><STRONG><a name="[58]"></a>UART1_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_nuc472_442.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc472_442.o(RESET)
+</UL>
+<P><STRONG><a name="[59]"></a>UART2_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_nuc472_442.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc472_442.o(RESET)
+</UL>
+<P><STRONG><a name="[5b]"></a>UART4_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_nuc472_442.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc472_442.o(RESET)
+</UL>
+<P><STRONG><a name="[5c]"></a>UART5_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_nuc472_442.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc472_442.o(RESET)
+</UL>
+<P><STRONG><a name="[4e]"></a>USBD_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_nuc472_442.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc472_442.o(RESET)
+</UL>
+<P><STRONG><a name="[4f]"></a>USBH_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_nuc472_442.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc472_442.o(RESET)
+</UL>
+<P><STRONG><a name="[50]"></a>USB_OTG_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_nuc472_442.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc472_442.o(RESET)
+</UL>
+<P><STRONG><a name="[2f]"></a>WDT_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_nuc472_442.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc472_442.o(RESET)
+</UL>
+<P><STRONG><a name="[30]"></a>WWDT_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_nuc472_442.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc472_442.o(RESET)
+</UL>
+<P><STRONG><a name="[d3]"></a>rt_hw_interrupt_disable</STRONG> (Thumb, 8 bytes, Stack size 0 bytes, context_rvds.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[c2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_interrupt_leave
+<LI><a href="#[c0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_interrupt_enter
+<LI><a href="#[107]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_object_delete
+<LI><a href="#[f4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_free
+<LI><a href="#[121]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_thread_idle_excute
+<LI><a href="#[10a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_object_init
+<LI><a href="#[109]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_object_detach
+<LI><a href="#[127]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_timer_check
+<LI><a href="#[126]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_thread_yield
+<LI><a href="#[125]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_timer_stop
+<LI><a href="#[11e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_timer_detach
+<LI><a href="#[11d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_thread_sleep
+<LI><a href="#[75]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_thread_exit
+<LI><a href="#[110]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_schedule_remove_thread
+<LI><a href="#[10f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_schedule_insert_thread
+<LI><a href="#[d2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_rt_scheduler_stack_check
+<LI><a href="#[116]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_system_heap_init
+<LI><a href="#[115]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_timer_start
+<LI><a href="#[ff]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_thread_suspend
+<LI><a href="#[fd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_thread_resume
+<LI><a href="#[10b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_schedule
+<LI><a href="#[104]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_object_allocate
+<LI><a href="#[103]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_malloc
+<LI><a href="#[f7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_sem_take
+<LI><a href="#[f9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_sem_release
+<LI><a href="#[71]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
+<P><STRONG><a name="[f6]"></a>rt_hw_interrupt_enable</STRONG> (Thumb, 6 bytes, Stack size 0 bytes, context_rvds.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[c2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_interrupt_leave
+<LI><a href="#[c0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_interrupt_enter
+<LI><a href="#[107]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_object_delete
+<LI><a href="#[f4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_free
+<LI><a href="#[121]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_thread_idle_excute
+<LI><a href="#[10a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_object_init
+<LI><a href="#[109]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_object_detach
+<LI><a href="#[127]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_timer_check
+<LI><a href="#[126]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_thread_yield
+<LI><a href="#[125]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_timer_stop
+<LI><a href="#[11e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_timer_detach
+<LI><a href="#[11d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_thread_sleep
+<LI><a href="#[75]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_thread_exit
+<LI><a href="#[110]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_schedule_remove_thread
+<LI><a href="#[10f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_schedule_insert_thread
+<LI><a href="#[116]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_system_heap_init
+<LI><a href="#[115]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_timer_start
+<LI><a href="#[ff]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_thread_suspend
+<LI><a href="#[fd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_thread_resume
+<LI><a href="#[10b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_schedule
+<LI><a href="#[104]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_object_allocate
+<LI><a href="#[103]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_malloc
+<LI><a href="#[f7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_sem_take
+<LI><a href="#[f9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_sem_release
+</UL>
+
+<P><STRONG><a name="[10d]"></a>rt_hw_context_switch</STRONG> (Thumb, 32 bytes, Stack size 0 bytes, context_rvds.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[10b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_schedule
+</UL>
+
+<P><STRONG><a name="[10e]"></a>rt_hw_context_switch_interrupt</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, context_rvds.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[10b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_schedule
+</UL>
+
+<P><STRONG><a name="[e]"></a>PendSV_Handler</STRONG> (Thumb, 108 bytes, Stack size 0 bytes, context_rvds.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc472_442.o(RESET)
+</UL>
+<P><STRONG><a name="[11a]"></a>rt_hw_context_switch_to</STRONG> (Thumb, 70 bytes, Stack size 0 bytes, context_rvds.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[119]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_system_scheduler_start
+</UL>
+
+<P><STRONG><a name="[1cb]"></a>rt_hw_interrupt_thread_switch</STRONG> (Thumb, 4 bytes, Stack size 0 bytes, context_rvds.o(.text), UNUSED)
+
+<P><STRONG><a name="[8]"></a>HardFault_Handler</STRONG> (Thumb, 20 bytes, Stack size 0 bytes, context_rvds.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = HardFault_Handler &rArr; rt_hw_hard_fault_exception
+</UL>
+<BR>[Calls]<UL><LI><a href="#[84]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_hw_hard_fault_exception
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc472_442.o(RESET)
+</UL>
+<P><STRONG><a name="[85]"></a>__aeabi_uldivmod</STRONG> (Thumb, 102 bytes, Stack size 40 bytes, uldiv.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[87]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_llsl
+<LI><a href="#[86]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_llsr
+</UL>
+<BR>[Called By]<UL><LI><a href="#[cc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_printf_core
+<LI><a href="#[cd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_fp_digits
+</UL>
+
+<P><STRONG><a name="[86]"></a>__aeabi_llsr</STRONG> (Thumb, 32 bytes, Stack size 0 bytes, llushr.o(.text), UNUSED)
+<BR><BR>[Called By]<UL><LI><a href="#[8a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_double_epilogue
+<LI><a href="#[90]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_d2ulz
+<LI><a href="#[85]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_uldivmod
+</UL>
+
+<P><STRONG><a name="[1cc]"></a>_ll_ushift_r</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, llushr.o(.text), UNUSED)
+
+<P><STRONG><a name="[dc]"></a>__aeabi_memcpy</STRONG> (Thumb, 36 bytes, Stack size 0 bytes, memcpya.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;eMBFuncReportSlaveID
+<LI><a href="#[e3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;peBTFrameSendCur
+</UL>
+
+<P><STRONG><a name="[c5]"></a>__aeabi_memcpy4</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, memcpya.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[c4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TIMER_GetModuleClock
+</UL>
+
+<P><STRONG><a name="[1cd]"></a>__aeabi_memcpy8</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, memcpya.o(.text), UNUSED)
+
+<P><STRONG><a name="[88]"></a>__aeabi_dadd</STRONG> (Thumb, 318 bytes, Stack size 48 bytes, dadd.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[89]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_lasr
+<LI><a href="#[87]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_llsl
+<LI><a href="#[8b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_double_round
+<LI><a href="#[8a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_double_epilogue
+</UL>
+<BR>[Called By]<UL><LI><a href="#[8d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_drsub
+<LI><a href="#[8c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_dsub
+<LI><a href="#[cd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_fp_digits
+</UL>
+
+<P><STRONG><a name="[8c]"></a>__aeabi_dsub</STRONG> (Thumb, 6 bytes, Stack size 0 bytes, dadd.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[88]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_dadd
+</UL>
+<BR>[Called By]<UL></UL>
+
+<P><STRONG><a name="[8d]"></a>__aeabi_drsub</STRONG> (Thumb, 6 bytes, Stack size 0 bytes, dadd.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[88]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_dadd
+</UL>
+<BR>[Called By]<UL></UL>
+
+<P><STRONG><a name="[8e]"></a>__aeabi_dmul</STRONG> (Thumb, 226 bytes, Stack size 48 bytes, dmul.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[8a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_double_epilogue
+</UL>
+<BR>[Called By]<UL><LI><a href="#[cd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_fp_digits
+</UL>
+
+<P><STRONG><a name="[8f]"></a>__aeabi_ddiv</STRONG> (Thumb, 222 bytes, Stack size 32 bytes, ddiv.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[8b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_double_round
+</UL>
+<BR>[Called By]<UL><LI><a href="#[cd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_fp_digits
+</UL>
+
+<P><STRONG><a name="[b7]"></a>__aeabi_f2d</STRONG> (Thumb, 44 bytes, Stack size 0 bytes, f2d.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[b1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PowerMeasurment
+</UL>
+
+<P><STRONG><a name="[1ce]"></a>__aeabi_uidiv</STRONG> (Thumb, 0 bytes, Stack size 12 bytes, uidiv.o(.text), UNUSED)
+
+<P><STRONG><a name="[d1]"></a>__aeabi_uidivmod</STRONG> (Thumb, 44 bytes, Stack size 12 bytes, uidiv.o(.text), UNUSED)
+<BR><BR>[Called By]<UL><LI><a href="#[cc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_printf_core
+</UL>
+
+<P><STRONG><a name="[87]"></a>__aeabi_llsl</STRONG> (Thumb, 30 bytes, Stack size 0 bytes, llshl.o(.text), UNUSED)
+<BR><BR>[Called By]<UL><LI><a href="#[88]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_dadd
+<LI><a href="#[8a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_double_epilogue
+<LI><a href="#[90]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_d2ulz
+<LI><a href="#[85]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_uldivmod
+</UL>
+
+<P><STRONG><a name="[1cf]"></a>_ll_shift_l</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, llshl.o(.text), UNUSED)
+
+<P><STRONG><a name="[89]"></a>__aeabi_lasr</STRONG> (Thumb, 36 bytes, Stack size 0 bytes, llsshr.o(.text), UNUSED)
+<BR><BR>[Called By]<UL><LI><a href="#[88]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_dadd
+</UL>
+
+<P><STRONG><a name="[1d0]"></a>_ll_sshift_r</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, llsshr.o(.text), UNUSED)
+
+<P><STRONG><a name="[1d1]"></a>__I$use$fp</STRONG> (Thumb, 0 bytes, Stack size 8 bytes, iusefp.o(.text), UNUSED)
+
+<P><STRONG><a name="[8b]"></a>_double_round</STRONG> (Thumb, 26 bytes, Stack size 8 bytes, depilogue.o(.text), UNUSED)
+<BR><BR>[Called By]<UL><LI><a href="#[88]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_dadd
+<LI><a href="#[8f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_ddiv
+<LI><a href="#[8a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_double_epilogue
+</UL>
+
+<P><STRONG><a name="[8a]"></a>_double_epilogue</STRONG> (Thumb, 168 bytes, Stack size 48 bytes, depilogue.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[87]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_llsl
+<LI><a href="#[8b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_double_round
+<LI><a href="#[86]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_llsr
+</UL>
+<BR>[Called By]<UL><LI><a href="#[8e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_dmul
+<LI><a href="#[88]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_dadd
+</UL>
+
+<P><STRONG><a name="[90]"></a>__aeabi_d2ulz</STRONG> (Thumb, 48 bytes, Stack size 0 bytes, dfixul.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[87]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_llsl
+<LI><a href="#[86]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_llsr
+</UL>
+<BR>[Called By]<UL><LI><a href="#[cd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_fp_digits
+</UL>
+
+<P><STRONG><a name="[ce]"></a>__aeabi_cdrcmple</STRONG> (Thumb, 38 bytes, Stack size 0 bytes, cdrcmple.o(.text), UNUSED)
+<BR><BR>[Called By]<UL><LI><a href="#[cd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_fp_digits
+</UL>
+
+<P><STRONG><a name="[83]"></a>__scatterload</STRONG> (Thumb, 28 bytes, Stack size 0 bytes, init.o(.text))
+<BR><BR>[Calls]<UL><LI><a href="#[91]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__main_after_scatterload
+</UL>
+<BR>[Called By]<UL><LI><a href="#[82]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_main_scatterload
+</UL>
+
+<P><STRONG><a name="[1d2]"></a>__scatterload_rt2</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, init.o(.text), UNUSED)
+
+<P><STRONG><a name="[1d3]"></a>__decompress</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, __dczerorl2.o(.text), UNUSED)
+
+<P><STRONG><a name="[1d4]"></a>__decompress1</STRONG> (Thumb, 92 bytes, Stack size unknown bytes, __dczerorl2.o(.text), UNUSED)
+
+<P><STRONG><a name="[92]"></a>ADE7878Cfg</STRONG> (Thumb, 790 bytes, Stack size 8 bytes, ade7878.o(i.ADE7878Cfg))
+<BR><BR>[Stack]<UL><LI>Max Depth = 28<LI>Call Chain = ADE7878Cfg &rArr; SPIWrite4Bytes
+</UL>
+<BR>[Calls]<UL><LI><a href="#[94]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPIWrite4Bytes
+<LI><a href="#[93]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPIWrite2Bytes
+<LI><a href="#[95]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPIWrite1Byte
+</UL>
+<BR>[Called By]<UL><LI><a href="#[9c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ADE7878_main
+</UL>
+
+<P><STRONG><a name="[96]"></a>ADE7878PSM0</STRONG> (Thumb, 50 bytes, Stack size 8 bytes, ade7878.o(i.ADE7878PSM0))
+<BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = ADE7878PSM0 &rArr; GPIO_SetMode
+</UL>
+<BR>[Calls]<UL><LI><a href="#[97]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GPIO_SetMode
+<LI><a href="#[98]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Delay
+</UL>
+<BR>[Called By]<UL><LI><a href="#[9c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ADE7878_main
+</UL>
+
+<P><STRONG><a name="[99]"></a>ADE7878Reset</STRONG> (Thumb, 90 bytes, Stack size 8 bytes, ade7878.o(i.ADE7878Reset))
+<BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = ADE7878Reset &rArr; GPIO_SetMode
+</UL>
+<BR>[Calls]<UL><LI><a href="#[97]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GPIO_SetMode
+<LI><a href="#[98]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Delay
+</UL>
+<BR>[Called By]<UL><LI><a href="#[9c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ADE7878_main
+</UL>
+
+<P><STRONG><a name="[9a]"></a>ADE7878SPICfg</STRONG> (Thumb, 92 bytes, Stack size 8 bytes, ade7878.o(i.ADE7878SPICfg))
+<BR><BR>[Stack]<UL><LI>Max Depth = 28<LI>Call Chain = ADE7878SPICfg &rArr; SPIWrite1Byte
+</UL>
+<BR>[Calls]<UL><LI><a href="#[95]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPIWrite1Byte
+<LI><a href="#[9b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPIDelay
+</UL>
+<BR>[Called By]<UL><LI><a href="#[9c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ADE7878_main
+</UL>
+
+<P><STRONG><a name="[9c]"></a>ADE7878_main</STRONG> (Thumb, 82 bytes, Stack size 8 bytes, ad7878_measure.o(i.ADE7878_main))
+<BR><BR>[Stack]<UL><LI>Max Depth = 40<LI>Call Chain = ADE7878_main &rArr; SPIRead4Bytes
+</UL>
+<BR>[Calls]<UL><LI><a href="#[9a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ADE7878SPICfg
+<LI><a href="#[99]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ADE7878Reset
+<LI><a href="#[96]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ADE7878PSM0
+<LI><a href="#[92]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ADE7878Cfg
+<LI><a href="#[94]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPIWrite4Bytes
+<LI><a href="#[93]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPIWrite2Bytes
+<LI><a href="#[9d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPIRead4Bytes
+<LI><a href="#[98]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Delay
+</UL>
+<BR>[Called By]<UL><LI><a href="#[fa]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_hw_board_init
+</UL>
+
+<P><STRONG><a name="[a2]"></a>CLK_EnableModuleClock</STRONG> (Thumb, 36 bytes, Stack size 0 bytes, clk.o(i.CLK_EnableModuleClock))
+<BR><BR>[Called By]<UL><LI><a href="#[a1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ConfigHWSpiport
+<LI><a href="#[e6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xMBPortTimersInit
+<LI><a href="#[e5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xMBPortSerialInit
+</UL>
+
+<P><STRONG><a name="[bd]"></a>CLK_EnableXtalRC</STRONG> (Thumb, 18 bytes, Stack size 0 bytes, clk.o(i.CLK_EnableXtalRC))
+<BR><BR>[Called By]<UL><LI><a href="#[bb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SYS_Init
+</UL>
+
+<P><STRONG><a name="[9e]"></a>CLK_GetHCLKFreq</STRONG> (Thumb, 12 bytes, Stack size 8 bytes, clk.o(i.CLK_GetHCLKFreq))
+<BR><BR>[Stack]<UL><LI>Max Depth = 36<LI>Call Chain = CLK_GetHCLKFreq &rArr; SystemCoreClockUpdate &rArr; CLK_GetPLLClockFreq
+</UL>
+<BR>[Calls]<UL><LI><a href="#[9f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SystemCoreClockUpdate
+</UL>
+<BR>[Called By]<UL><LI><a href="#[a3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPI_Open
+</UL>
+
+<P><STRONG><a name="[c3]"></a>CLK_GetPLLClockFreq</STRONG> (Thumb, 96 bytes, Stack size 12 bytes, clk.o(i.CLK_GetPLLClockFreq))
+<BR><BR>[Stack]<UL><LI>Max Depth = 12<LI>Call Chain = CLK_GetPLLClockFreq
+</UL>
+<BR>[Called By]<UL><LI><a href="#[ca]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;UART_Open
+<LI><a href="#[9f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SystemCoreClockUpdate
+</UL>
+
+<P><STRONG><a name="[a0]"></a>CLK_SetHCLK</STRONG> (Thumb, 48 bytes, Stack size 16 bytes, clk.o(i.CLK_SetHCLK))
+<BR><BR>[Stack]<UL><LI>Max Depth = 44<LI>Call Chain = CLK_SetHCLK &rArr; SystemCoreClockUpdate &rArr; CLK_GetPLLClockFreq
+</UL>
+<BR>[Calls]<UL><LI><a href="#[9f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SystemCoreClockUpdate
+</UL>
+<BR>[Called By]<UL><LI><a href="#[bb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SYS_Init
+</UL>
+
+<P><STRONG><a name="[138]"></a>CLK_SetModuleClock</STRONG> (Thumb, 94 bytes, Stack size 16 bytes, clk.o(i.CLK_SetModuleClock))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = CLK_SetModuleClock
+</UL>
+<BR>[Called By]<UL><LI><a href="#[e6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xMBPortTimersInit
+<LI><a href="#[e5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xMBPortSerialInit
+</UL>
+
+<P><STRONG><a name="[be]"></a>CLK_WaitClockReady</STRONG> (Thumb, 36 bytes, Stack size 0 bytes, clk.o(i.CLK_WaitClockReady))
+<BR><BR>[Called By]<UL><LI><a href="#[bb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SYS_Init
+</UL>
+
+<P><STRONG><a name="[a1]"></a>ConfigHWSpiport</STRONG> (Thumb, 86 bytes, Stack size 8 bytes, config.o(i.ConfigHWSpiport))
+<BR><BR>[Stack]<UL><LI>Max Depth = 76<LI>Call Chain = ConfigHWSpiport &rArr; SPI_Open &rArr; CLK_GetHCLKFreq &rArr; SystemCoreClockUpdate &rArr; CLK_GetPLLClockFreq
+</UL>
+<BR>[Calls]<UL><LI><a href="#[a3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPI_Open
+<LI><a href="#[a4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPI_DisableAutoSS
+<LI><a href="#[97]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GPIO_SetMode
+<LI><a href="#[a2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CLK_EnableModuleClock
+</UL>
+<BR>[Called By]<UL><LI><a href="#[ba]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SYS_Config
+</UL>
+
+<P><STRONG><a name="[a5]"></a>ConfigHWled</STRONG> (Thumb, 24 bytes, Stack size 8 bytes, config.o(i.ConfigHWled))
+<BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = ConfigHWled &rArr; GPIO_SetMode
+</UL>
+<BR>[Calls]<UL><LI><a href="#[97]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GPIO_SetMode
+</UL>
+<BR>[Called By]<UL><LI><a href="#[ba]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SYS_Config
+</UL>
+
+<P><STRONG><a name="[a6]"></a>Config_ADE7878_IRQ</STRONG> (Thumb, 96 bytes, Stack size 8 bytes, ade7878_int.o(i.Config_ADE7878_IRQ))
+<BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = Config_ADE7878_IRQ &rArr; GPIO_SetMode
+</UL>
+<BR>[Calls]<UL><LI><a href="#[97]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GPIO_SetMode
+<LI><a href="#[a7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GPIO_EnableInt
+</UL>
+<BR>[Called By]<UL><LI><a href="#[ba]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SYS_Config
+</UL>
+
+<P><STRONG><a name="[98]"></a>Delay</STRONG> (Thumb, 18 bytes, Stack size 0 bytes, ade7878_spi.o(i.Delay))
+<BR><BR>[Called By]<UL><LI><a href="#[9c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ADE7878_main
+<LI><a href="#[99]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ADE7878Reset
+<LI><a href="#[96]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ADE7878PSM0
+</UL>
+
+<P><STRONG><a name="[ae]"></a>Delay_nms</STRONG> (Thumb, 20 bytes, Stack size 0 bytes, ds12864.o(i.Delay_nms))
+<BR><BR>[Called By]<UL><LI><a href="#[b0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LCD_write_dat
+<LI><a href="#[ac]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LCD_write_com
+<LI><a href="#[ad]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LCD_init
+</UL>
+
+<P><STRONG><a name="[a8]"></a>Display_Task</STRONG> (Thumb, 60 bytes, Stack size 4 bytes, ds12864.o(i.Display_Task))
+<BR><BR>[Stack]<UL><LI>Max Depth = 28<LI>Call Chain = Display_Task &rArr; LCD_Setaddress &rArr; LCD_write_com
+</UL>
+<BR>[Calls]<UL><LI><a href="#[aa]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;print
+<LI><a href="#[a9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LCD_Setaddress
+</UL>
+<BR>[Called By]<UL><LI><a href="#[b1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PowerMeasurment
+</UL>
+
+<P><STRONG><a name="[e4]"></a>EnterCriticalSection</STRONG> (Thumb, 4 bytes, Stack size 0 bytes, port.o(i.EnterCriticalSection))
+<BR><BR>[Called By]<UL><LI><a href="#[e3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;peBTFrameSendCur
+<LI><a href="#[78]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;eMBRTUStop
+<LI><a href="#[77]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;eMBRTUStart
+<LI><a href="#[79]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;eMBRTUSend
+<LI><a href="#[7a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;eMBRTUReceive
+<LI><a href="#[de]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;eMBRTUInit
+<LI><a href="#[e5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xMBPortSerialInit
+</UL>
+
+<P><STRONG><a name="[e7]"></a>ExitCriticalSection</STRONG> (Thumb, 4 bytes, Stack size 0 bytes, port.o(i.ExitCriticalSection))
+<BR><BR>[Called By]<UL><LI><a href="#[e3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;peBTFrameSendCur
+<LI><a href="#[78]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;eMBRTUStop
+<LI><a href="#[77]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;eMBRTUStart
+<LI><a href="#[79]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;eMBRTUSend
+<LI><a href="#[7a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;eMBRTUReceive
+<LI><a href="#[de]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;eMBRTUInit
+<LI><a href="#[e5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xMBPortSerialInit
+</UL>
+
+<P><STRONG><a name="[21]"></a>GPB_IRQHandler</STRONG> (Thumb, 70 bytes, Stack size 0 bytes, ade7878_int.o(i.GPB_IRQHandler))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc472_442.o(RESET)
+</UL>
+<P><STRONG><a name="[a7]"></a>GPIO_EnableInt</STRONG> (Thumb, 26 bytes, Stack size 8 bytes, gpio.o(i.GPIO_EnableInt))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = GPIO_EnableInt
+</UL>
+<BR>[Called By]<UL><LI><a href="#[a6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Config_ADE7878_IRQ
+</UL>
+
+<P><STRONG><a name="[97]"></a>GPIO_SetMode</STRONG> (Thumb, 44 bytes, Stack size 16 bytes, gpio.o(i.GPIO_SetMode))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = GPIO_SetMode
+</UL>
+<BR>[Called By]<UL><LI><a href="#[ab]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Init12864
+<LI><a href="#[a6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Config_ADE7878_IRQ
+<LI><a href="#[a5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ConfigHWled
+<LI><a href="#[a1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ConfigHWSpiport
+<LI><a href="#[e5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xMBPortSerialInit
+<LI><a href="#[99]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ADE7878Reset
+<LI><a href="#[96]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ADE7878PSM0
+</UL>
+
+<P><STRONG><a name="[ab]"></a>Init12864</STRONG> (Thumb, 24 bytes, Stack size 8 bytes, ds12864.o(i.Init12864))
+<BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = Init12864 &rArr; GPIO_SetMode
+</UL>
+<BR>[Calls]<UL><LI><a href="#[97]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GPIO_SetMode
+</UL>
+<BR>[Called By]<UL><LI><a href="#[ad]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LCD_init
+</UL>
+
+<P><STRONG><a name="[a9]"></a>LCD_Setaddress</STRONG> (Thumb, 68 bytes, Stack size 16 bytes, ds12864.o(i.LCD_Setaddress))
+<BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = LCD_Setaddress &rArr; LCD_write_com
+</UL>
+<BR>[Calls]<UL><LI><a href="#[ac]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LCD_write_com
+</UL>
+<BR>[Called By]<UL><LI><a href="#[a8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Display_Task
+</UL>
+
+<P><STRONG><a name="[ad]"></a>LCD_init</STRONG> (Thumb, 44 bytes, Stack size 8 bytes, ds12864.o(i.LCD_init))
+<BR><BR>[Stack]<UL><LI>Max Depth = 32<LI>Call Chain = LCD_init &rArr; Init12864 &rArr; GPIO_SetMode
+</UL>
+<BR>[Calls]<UL><LI><a href="#[ac]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LCD_write_com
+<LI><a href="#[ab]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Init12864
+<LI><a href="#[ae]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Delay_nms
+</UL>
+<BR>[Called By]<UL><LI><a href="#[ba]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SYS_Config
+</UL>
+
+<P><STRONG><a name="[af]"></a>LCD_sendbyte</STRONG> (Thumb, 58 bytes, Stack size 0 bytes, ds12864.o(i.LCD_sendbyte))
+<BR><BR>[Called By]<UL><LI><a href="#[b0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LCD_write_dat
+<LI><a href="#[ac]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LCD_write_com
+</UL>
+
+<P><STRONG><a name="[ac]"></a>LCD_write_com</STRONG> (Thumb, 36 bytes, Stack size 8 bytes, ds12864.o(i.LCD_write_com))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = LCD_write_com
+</UL>
+<BR>[Calls]<UL><LI><a href="#[af]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LCD_sendbyte
+<LI><a href="#[ae]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Delay_nms
+</UL>
+<BR>[Called By]<UL><LI><a href="#[b6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Set_Watthr2Display
+<LI><a href="#[b5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Set_Watt2Display
+<LI><a href="#[b3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Set_Vrms2Display
+<LI><a href="#[b4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Set_Irms2Display
+<LI><a href="#[a9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LCD_Setaddress
+<LI><a href="#[ad]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LCD_init
+</UL>
+
+<P><STRONG><a name="[b0]"></a>LCD_write_dat</STRONG> (Thumb, 36 bytes, Stack size 8 bytes, ds12864.o(i.LCD_write_dat))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = LCD_write_dat
+</UL>
+<BR>[Calls]<UL><LI><a href="#[af]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LCD_sendbyte
+<LI><a href="#[ae]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Delay_nms
+</UL>
+<BR>[Called By]<UL><LI><a href="#[aa]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;print
+</UL>
+
+<P><STRONG><a name="[b1]"></a>PowerMeasurment</STRONG> (Thumb, 476 bytes, Stack size 104 bytes, ad7878_measure.o(i.PowerMeasurment))
+<BR><BR>[Stack]<UL><LI>Max Depth = 136<LI>Call Chain = PowerMeasurment &rArr; Set_Watthr2Display &rArr; __2sprintf
+</UL>
+<BR>[Calls]<UL><LI><a href="#[b6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Set_Watthr2Display
+<LI><a href="#[b5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Set_Watt2Display
+<LI><a href="#[b3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Set_Vrms2Display
+<LI><a href="#[b4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Set_Irms2Display
+<LI><a href="#[a8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Display_Task
+<LI><a href="#[b7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_f2d
+<LI><a href="#[94]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPIWrite4Bytes
+<LI><a href="#[9d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPIRead4Bytes
+<LI><a href="#[b2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPIRead2Bytes
+<LI><a href="#[9b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPIDelay
+<LI><a href="#[b8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__2sprintf
+</UL>
+<BR>[Called By]<UL><LI><a href="#[7f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_thread_entry_PowerMeasurment
+</UL>
+
+<P><STRONG><a name="[9b]"></a>SPIDelay</STRONG> (Thumb, 16 bytes, Stack size 0 bytes, ade7878_spi.o(i.SPIDelay))
+<BR><BR>[Called By]<UL><LI><a href="#[b1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PowerMeasurment
+<LI><a href="#[9a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ADE7878SPICfg
+<LI><a href="#[94]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPIWrite4Bytes
+<LI><a href="#[93]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPIWrite2Bytes
+<LI><a href="#[95]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPIWrite1Byte
+<LI><a href="#[9d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPIRead4Bytes
+<LI><a href="#[b2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPIRead2Bytes
+</UL>
+
+<P><STRONG><a name="[b2]"></a>SPIRead2Bytes</STRONG> (Thumb, 126 bytes, Stack size 32 bytes, ade7878_spi.o(i.SPIRead2Bytes))
+<BR><BR>[Stack]<UL><LI>Max Depth = 32<LI>Call Chain = SPIRead2Bytes
+</UL>
+<BR>[Calls]<UL><LI><a href="#[b9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPI_ClearRxFIFO
+<LI><a href="#[9b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPIDelay
+</UL>
+<BR>[Called By]<UL><LI><a href="#[b1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PowerMeasurment
+</UL>
+
+<P><STRONG><a name="[9d]"></a>SPIRead4Bytes</STRONG> (Thumb, 142 bytes, Stack size 32 bytes, ade7878_spi.o(i.SPIRead4Bytes))
+<BR><BR>[Stack]<UL><LI>Max Depth = 32<LI>Call Chain = SPIRead4Bytes
+</UL>
+<BR>[Calls]<UL><LI><a href="#[b9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPI_ClearRxFIFO
+<LI><a href="#[9b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPIDelay
+</UL>
+<BR>[Called By]<UL><LI><a href="#[b1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PowerMeasurment
+<LI><a href="#[9c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ADE7878_main
+</UL>
+
+<P><STRONG><a name="[95]"></a>SPIWrite1Byte</STRONG> (Thumb, 68 bytes, Stack size 20 bytes, ade7878_spi.o(i.SPIWrite1Byte))
+<BR><BR>[Stack]<UL><LI>Max Depth = 20<LI>Call Chain = SPIWrite1Byte
+</UL>
+<BR>[Calls]<UL><LI><a href="#[9b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPIDelay
+</UL>
+<BR>[Called By]<UL><LI><a href="#[9a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ADE7878SPICfg
+<LI><a href="#[92]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ADE7878Cfg
+</UL>
+
+<P><STRONG><a name="[93]"></a>SPIWrite2Bytes</STRONG> (Thumb, 78 bytes, Stack size 20 bytes, ade7878_spi.o(i.SPIWrite2Bytes))
+<BR><BR>[Stack]<UL><LI>Max Depth = 20<LI>Call Chain = SPIWrite2Bytes
+</UL>
+<BR>[Calls]<UL><LI><a href="#[9b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPIDelay
+</UL>
+<BR>[Called By]<UL><LI><a href="#[9c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ADE7878_main
+<LI><a href="#[92]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ADE7878Cfg
+</UL>
+
+<P><STRONG><a name="[94]"></a>SPIWrite4Bytes</STRONG> (Thumb, 94 bytes, Stack size 20 bytes, ade7878_spi.o(i.SPIWrite4Bytes))
+<BR><BR>[Stack]<UL><LI>Max Depth = 20<LI>Call Chain = SPIWrite4Bytes
+</UL>
+<BR>[Calls]<UL><LI><a href="#[9b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPIDelay
+</UL>
+<BR>[Called By]<UL><LI><a href="#[b1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PowerMeasurment
+<LI><a href="#[9c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ADE7878_main
+<LI><a href="#[92]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ADE7878Cfg
+</UL>
+
+<P><STRONG><a name="[b9]"></a>SPI_ClearRxFIFO</STRONG> (Thumb, 10 bytes, Stack size 0 bytes, spi.o(i.SPI_ClearRxFIFO))
+<BR><BR>[Called By]<UL><LI><a href="#[9d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPIRead4Bytes
+<LI><a href="#[b2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPIRead2Bytes
+</UL>
+
+<P><STRONG><a name="[a4]"></a>SPI_DisableAutoSS</STRONG> (Thumb, 10 bytes, Stack size 0 bytes, spi.o(i.SPI_DisableAutoSS))
+<BR><BR>[Called By]<UL><LI><a href="#[a1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ConfigHWSpiport
+</UL>
+
+<P><STRONG><a name="[a3]"></a>SPI_Open</STRONG> (Thumb, 88 bytes, Stack size 32 bytes, spi.o(i.SPI_Open))
+<BR><BR>[Stack]<UL><LI>Max Depth = 68<LI>Call Chain = SPI_Open &rArr; CLK_GetHCLKFreq &rArr; SystemCoreClockUpdate &rArr; CLK_GetPLLClockFreq
+</UL>
+<BR>[Calls]<UL><LI><a href="#[9e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CLK_GetHCLKFreq
+</UL>
+<BR>[Called By]<UL><LI><a href="#[a1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ConfigHWSpiport
+</UL>
+
+<P><STRONG><a name="[ba]"></a>SYS_Config</STRONG> (Thumb, 20 bytes, Stack size 8 bytes, config.o(i.SYS_Config))
+<BR><BR>[Stack]<UL><LI>Max Depth = 84<LI>Call Chain = SYS_Config &rArr; ConfigHWSpiport &rArr; SPI_Open &rArr; CLK_GetHCLKFreq &rArr; SystemCoreClockUpdate &rArr; CLK_GetPLLClockFreq
+</UL>
+<BR>[Calls]<UL><LI><a href="#[ad]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LCD_init
+<LI><a href="#[a6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Config_ADE7878_IRQ
+<LI><a href="#[a5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ConfigHWled
+<LI><a href="#[a1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ConfigHWSpiport
+</UL>
+<BR>[Called By]<UL><LI><a href="#[fa]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_hw_board_init
+</UL>
+
+<P><STRONG><a name="[bb]"></a>SYS_Init</STRONG> (Thumb, 80 bytes, Stack size 8 bytes, main.o(i.SYS_Init))
+<BR><BR>[Stack]<UL><LI>Max Depth = 52<LI>Call Chain = SYS_Init &rArr; CLK_SetHCLK &rArr; SystemCoreClockUpdate &rArr; CLK_GetPLLClockFreq
+</UL>
+<BR>[Calls]<UL><LI><a href="#[9f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SystemCoreClockUpdate
+<LI><a href="#[bc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SYS_UnlockReg
+<LI><a href="#[be]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CLK_WaitClockReady
+<LI><a href="#[a0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CLK_SetHCLK
+<LI><a href="#[bd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CLK_EnableXtalRC
+<LI><a href="#[bf]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SetSysTick
+</UL>
+<BR>[Called By]<UL><LI><a href="#[fa]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_hw_board_init
+</UL>
+
+<P><STRONG><a name="[bc]"></a>SYS_UnlockReg</STRONG> (Thumb, 38 bytes, Stack size 0 bytes, sys.o(i.SYS_UnlockReg))
+<BR><BR>[Called By]<UL><LI><a href="#[bb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SYS_Init
+</UL>
+
+<P><STRONG><a name="[bf]"></a>SetSysTick</STRONG> (Thumb, 54 bytes, Stack size 0 bytes, main.o(i.SetSysTick))
+<BR><BR>[Called By]<UL><LI><a href="#[bb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SYS_Init
+</UL>
+
+<P><STRONG><a name="[b4]"></a>Set_Irms2Display</STRONG> (Thumb, 46 bytes, Stack size 8 bytes, ds12864.o(i.Set_Irms2Display))
+<BR><BR>[Stack]<UL><LI>Max Depth = 32<LI>Call Chain = Set_Irms2Display &rArr; __2sprintf
+</UL>
+<BR>[Calls]<UL><LI><a href="#[ac]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LCD_write_com
+<LI><a href="#[b8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__2sprintf
+</UL>
+<BR>[Called By]<UL><LI><a href="#[b1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PowerMeasurment
+</UL>
+
+<P><STRONG><a name="[b3]"></a>Set_Vrms2Display</STRONG> (Thumb, 46 bytes, Stack size 8 bytes, ds12864.o(i.Set_Vrms2Display))
+<BR><BR>[Stack]<UL><LI>Max Depth = 32<LI>Call Chain = Set_Vrms2Display &rArr; __2sprintf
+</UL>
+<BR>[Calls]<UL><LI><a href="#[ac]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LCD_write_com
+<LI><a href="#[b8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__2sprintf
+</UL>
+<BR>[Called By]<UL><LI><a href="#[b1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PowerMeasurment
+</UL>
+
+<P><STRONG><a name="[b5]"></a>Set_Watt2Display</STRONG> (Thumb, 46 bytes, Stack size 8 bytes, ds12864.o(i.Set_Watt2Display))
+<BR><BR>[Stack]<UL><LI>Max Depth = 32<LI>Call Chain = Set_Watt2Display &rArr; __2sprintf
+</UL>
+<BR>[Calls]<UL><LI><a href="#[ac]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LCD_write_com
+<LI><a href="#[b8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__2sprintf
+</UL>
+<BR>[Called By]<UL><LI><a href="#[b1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PowerMeasurment
+</UL>
+
+<P><STRONG><a name="[b6]"></a>Set_Watthr2Display</STRONG> (Thumb, 46 bytes, Stack size 8 bytes, ds12864.o(i.Set_Watthr2Display))
+<BR><BR>[Stack]<UL><LI>Max Depth = 32<LI>Call Chain = Set_Watthr2Display &rArr; __2sprintf
+</UL>
+<BR>[Calls]<UL><LI><a href="#[ac]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LCD_write_com
+<LI><a href="#[b8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__2sprintf
+</UL>
+<BR>[Called By]<UL><LI><a href="#[b1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PowerMeasurment
+</UL>
+
+<P><STRONG><a name="[f]"></a>SysTick_Handler</STRONG> (Thumb, 26 bytes, Stack size 8 bytes, main.o(i.SysTick_Handler))
+<BR><BR>[Stack]<UL><LI>Max Depth = 72<LI>Call Chain = SysTick_Handler &rArr; rt_tick_increase &rArr; rt_thread_yield &rArr; rt_schedule &rArr; _rt_scheduler_stack_check
+</UL>
+<BR>[Calls]<UL><LI><a href="#[c1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_tick_increase
+<LI><a href="#[c2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_interrupt_leave
+<LI><a href="#[c0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_interrupt_enter
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc472_442.o(RESET)
+</UL>
+<P><STRONG><a name="[9f]"></a>SystemCoreClockUpdate</STRONG> (Thumb, 68 bytes, Stack size 16 bytes, system_nuc472_442.o(i.SystemCoreClockUpdate))
+<BR><BR>[Stack]<UL><LI>Max Depth = 28<LI>Call Chain = SystemCoreClockUpdate &rArr; CLK_GetPLLClockFreq
+</UL>
+<BR>[Calls]<UL><LI><a href="#[c3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CLK_GetPLLClockFreq
+</UL>
+<BR>[Called By]<UL><LI><a href="#[a0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CLK_SetHCLK
+<LI><a href="#[bb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SYS_Init
+<LI><a href="#[9e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CLK_GetHCLKFreq
+</UL>
+
+<P><STRONG><a name="[72]"></a>SystemInit</STRONG> (Thumb, 20 bytes, Stack size 0 bytes, system_nuc472_442.o(i.SystemInit))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc472_442.o(.text)
+</UL>
+<P><STRONG><a name="[134]"></a>TIMER_Close</STRONG> (Thumb, 8 bytes, Stack size 0 bytes, timer_nuc.o(i.TIMER_Close))
+<BR><BR>[Called By]<UL><LI><a href="#[eb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;vMBPortTimersDisable
+</UL>
+
+<P><STRONG><a name="[c4]"></a>TIMER_GetModuleClock</STRONG> (Thumb, 112 bytes, Stack size 48 bytes, timer_nuc.o(i.TIMER_GetModuleClock))
+<BR><BR>[Stack]<UL><LI>Max Depth = 48<LI>Call Chain = TIMER_GetModuleClock
+</UL>
+<BR>[Calls]<UL><LI><a href="#[c5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memcpy4
+</UL>
+<BR>[Called By]<UL><LI><a href="#[c6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TIMER_Open
+</UL>
+
+<P><STRONG><a name="[c6]"></a>TIMER_Open</STRONG> (Thumb, 98 bytes, Stack size 32 bytes, timer_nuc.o(i.TIMER_Open))
+<BR><BR>[Stack]<UL><LI>Max Depth = 80<LI>Call Chain = TIMER_Open &rArr; TIMER_GetModuleClock
+</UL>
+<BR>[Calls]<UL><LI><a href="#[c4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TIMER_GetModuleClock
+</UL>
+<BR>[Called By]<UL><LI><a href="#[e6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xMBPortTimersInit
+<LI><a href="#[ea]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;vMBPortTimersEnable
+</UL>
+
+<P><STRONG><a name="[29]"></a>TMR0_IRQHandler</STRONG> (Thumb, 60 bytes, Stack size 8 bytes, porttimer.o(i.TMR0_IRQHandler))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = TMR0_IRQHandler &rArr; prvvTIMERExpiredISR
+</UL>
+<BR>[Calls]<UL><LI><a href="#[c7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;prvvTIMERExpiredISR
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc472_442.o(RESET)
+</UL>
+<P><STRONG><a name="[5a]"></a>UART3_IRQHandler</STRONG> (Thumb, 30 bytes, Stack size 8 bytes, portserial.o(i.UART3_IRQHandler))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = UART3_IRQHandler &rArr; prvvUARTTxReadyISR
+</UL>
+<BR>[Calls]<UL><LI><a href="#[c9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;prvvUARTTxReadyISR
+<LI><a href="#[c8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;prvvUARTRxISR
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc472_442.o(RESET)
+</UL>
+<P><STRONG><a name="[139]"></a>UART_DisableFlowCtrl</STRONG> (Thumb, 10 bytes, Stack size 0 bytes, uart.o(i.UART_DisableFlowCtrl))
+<BR><BR>[Called By]<UL><LI><a href="#[e5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xMBPortSerialInit
+</UL>
+
+<P><STRONG><a name="[132]"></a>UART_DisableInt</STRONG> (Thumb, 8 bytes, Stack size 0 bytes, uart.o(i.UART_DisableInt))
+<BR><BR>[Called By]<UL><LI><a href="#[e9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;vMBPortSerialEnable
+</UL>
+
+<P><STRONG><a name="[131]"></a>UART_EnableInt</STRONG> (Thumb, 8 bytes, Stack size 0 bytes, uart.o(i.UART_EnableInt))
+<BR><BR>[Called By]<UL><LI><a href="#[e5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xMBPortSerialInit
+<LI><a href="#[e9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;vMBPortSerialEnable
+</UL>
+
+<P><STRONG><a name="[ca]"></a>UART_Open</STRONG> (Thumb, 118 bytes, Stack size 40 bytes, uart.o(i.UART_Open))
+<BR><BR>[Stack]<UL><LI>Max Depth = 52<LI>Call Chain = UART_Open &rArr; CLK_GetPLLClockFreq
+</UL>
+<BR>[Calls]<UL><LI><a href="#[c3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CLK_GetPLLClockFreq
+</UL>
+<BR>[Called By]<UL><LI><a href="#[e5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xMBPortSerialInit
+</UL>
+
+<P><STRONG><a name="[cb]"></a>__0sprintf</STRONG> (Thumb, 34 bytes, Stack size 24 bytes, printfa.o(i.__0sprintf), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[74]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_sputc
+<LI><a href="#[cc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_printf_core
+</UL>
+
+<P><STRONG><a name="[1d5]"></a>__1sprintf</STRONG> (Thumb, 0 bytes, Stack size 24 bytes, printfa.o(i.__0sprintf), UNUSED)
+
+<P><STRONG><a name="[b8]"></a>__2sprintf</STRONG> (Thumb, 0 bytes, Stack size 24 bytes, printfa.o(i.__0sprintf))
+<BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = __2sprintf
+</UL>
+<BR>[Called By]<UL><LI><a href="#[b6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Set_Watthr2Display
+<LI><a href="#[b5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Set_Watt2Display
+<LI><a href="#[b3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Set_Vrms2Display
+<LI><a href="#[b4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Set_Irms2Display
+<LI><a href="#[b1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PowerMeasurment
+</UL>
+
+<P><STRONG><a name="[1d6]"></a>__c89sprintf</STRONG> (Thumb, 0 bytes, Stack size 24 bytes, printfa.o(i.__0sprintf), UNUSED)
+
+<P><STRONG><a name="[1d7]"></a>sprintf</STRONG> (Thumb, 0 bytes, Stack size 24 bytes, printfa.o(i.__0sprintf), UNUSED)
+
+<P><STRONG><a name="[10c]"></a>__rt_ffs</STRONG> (Thumb, 72 bytes, Stack size 0 bytes, kservice.o(i.__rt_ffs))
+<BR><BR>[Called By]<UL><LI><a href="#[119]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_system_scheduler_start
+<LI><a href="#[10b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_schedule
+</UL>
+
+<P><STRONG><a name="[1d8]"></a>__scatterload_copy</STRONG> (Thumb, 14 bytes, Stack size unknown bytes, handlers.o(i.__scatterload_copy), UNUSED)
+
+<P><STRONG><a name="[1d9]"></a>__scatterload_null</STRONG> (Thumb, 2 bytes, Stack size unknown bytes, handlers.o(i.__scatterload_null), UNUSED)
+
+<P><STRONG><a name="[1da]"></a>__scatterload_zeroinit</STRONG> (Thumb, 14 bytes, Stack size unknown bytes, handlers.o(i.__scatterload_zeroinit), UNUSED)
+
+<P><STRONG><a name="[ef]"></a>crc_ccitt</STRONG> (Thumb, 40 bytes, Stack size 8 bytes, mbcrc.o(i.crc_ccitt))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = crc_ccitt
+</UL>
+<BR>[Called By]<UL><LI><a href="#[e3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;peBTFrameSendCur
+</UL>
+
+<P><STRONG><a name="[1]"></a>eBTFuncReadHoldingRegister</STRONG> (Thumb, 150 bytes, Stack size 24 bytes, btfunc.o(i.eBTFuncReadHoldingRegister))
+<BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = eBTFuncReadHoldingRegister
+</UL>
+<BR>[Calls]<UL><LI><a href="#[da]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;prveMBError2Exception
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> mb.o(.data)
+</UL>
+<P><STRONG><a name="[fb]"></a>eMBEnable</STRONG> (Thumb, 32 bytes, Stack size 8 bytes, mb.o(i.eMBEnable))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = eMBEnable
+</UL>
+<BR>[Called By]<UL><LI><a href="#[7e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_init_thread_entry
+</UL>
+
+<P><STRONG><a name="[3]"></a>eMBFuncReadHoldingRegister</STRONG> (Thumb, 140 bytes, Stack size 32 bytes, mbfuncholding.o(i.eMBFuncReadHoldingRegister))
+<BR><BR>[Stack]<UL><LI>Max Depth = 64<LI>Call Chain = eMBFuncReadHoldingRegister &rArr; eMBRegHoldingCB
+</UL>
+<BR>[Calls]<UL><LI><a href="#[da]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;prveMBError2Exception
+<LI><a href="#[db]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;eMBRegHoldingCB
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> mb.o(.data)
+</UL>
+<P><STRONG><a name="[5]"></a>eMBFuncReadWriteMultipleHoldingRegister</STRONG> (Thumb, 212 bytes, Stack size 48 bytes, mbfuncholding.o(i.eMBFuncReadWriteMultipleHoldingRegister))
+<BR><BR>[Stack]<UL><LI>Max Depth = 80<LI>Call Chain = eMBFuncReadWriteMultipleHoldingRegister &rArr; eMBRegHoldingCB
+</UL>
+<BR>[Calls]<UL><LI><a href="#[da]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;prveMBError2Exception
+<LI><a href="#[db]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;eMBRegHoldingCB
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> mb.o(.data)
+</UL>
+<P><STRONG><a name="[2]"></a>eMBFuncReportSlaveID</STRONG> (Thumb, 30 bytes, Stack size 16 bytes, mbfuncother.o(i.eMBFuncReportSlaveID))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = eMBFuncReportSlaveID
+</UL>
+<BR>[Calls]<UL><LI><a href="#[dc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memcpy
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> mb.o(.data)
+</UL>
+<P><STRONG><a name="[4]"></a>eMBFuncWriteHoldingRegister</STRONG> (Thumb, 66 bytes, Stack size 24 bytes, mbfuncholding.o(i.eMBFuncWriteHoldingRegister))
+<BR><BR>[Stack]<UL><LI>Max Depth = 56<LI>Call Chain = eMBFuncWriteHoldingRegister &rArr; eMBRegHoldingCB
+</UL>
+<BR>[Calls]<UL><LI><a href="#[da]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;prveMBError2Exception
+<LI><a href="#[db]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;eMBRegHoldingCB
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> mb.o(.data)
+</UL>
+<P><STRONG><a name="[dd]"></a>eMBInit</STRONG> (Thumb, 150 bytes, Stack size 32 bytes, mb.o(i.eMBInit))
+<BR><BR>[Stack]<UL><LI>Max Depth = 160<LI>Call Chain = eMBInit &rArr; eMBRTUInit &rArr; xMBPortTimersInit &rArr; TIMER_Open &rArr; TIMER_GetModuleClock
+</UL>
+<BR>[Calls]<UL><LI><a href="#[de]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;eMBRTUInit
+<LI><a href="#[df]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xMBPortEventInit
+</UL>
+<BR>[Called By]<UL><LI><a href="#[7e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_init_thread_entry
+</UL>
+
+<P><STRONG><a name="[e0]"></a>eMBPoll</STRONG> (Thumb, 438 bytes, Stack size 16 bytes, mb.o(i.eMBPoll))
+<BR><BR>[Stack]<UL><LI>Max Depth = 56<LI>Call Chain = eMBPoll &rArr; peBTFrameSendCur &rArr; vMBPortSerialEnable
+</UL>
+<BR>[Calls]<UL><LI><a href="#[e3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;peBTFrameSendCur
+<LI><a href="#[e2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xMBPortEventPost
+<LI><a href="#[e1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xMBPortEventGet
+</UL>
+<BR>[Called By]<UL><LI><a href="#[80]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_thread_entry_Rs485comm
+</UL>
+
+<P><STRONG><a name="[de]"></a>eMBRTUInit</STRONG> (Thumb, 84 bytes, Stack size 32 bytes, mbrtu.o(i.eMBRTUInit))
+<BR><BR>[Stack]<UL><LI>Max Depth = 128<LI>Call Chain = eMBRTUInit &rArr; xMBPortTimersInit &rArr; TIMER_Open &rArr; TIMER_GetModuleClock
+</UL>
+<BR>[Calls]<UL><LI><a href="#[e6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xMBPortTimersInit
+<LI><a href="#[e5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xMBPortSerialInit
+<LI><a href="#[e7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ExitCriticalSection
+<LI><a href="#[e4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EnterCriticalSection
+</UL>
+<BR>[Called By]<UL><LI><a href="#[dd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;eMBInit
+</UL>
+
+<P><STRONG><a name="[7a]"></a>eMBRTUReceive</STRONG> (Thumb, 100 bytes, Stack size 24 bytes, mbrtu.o(i.eMBRTUReceive))
+<BR><BR>[Stack]<UL><LI>Max Depth = 36<LI>Call Chain = eMBRTUReceive &rArr; usMBCRC16
+</UL>
+<BR>[Calls]<UL><LI><a href="#[e8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;usMBCRC16
+<LI><a href="#[e7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ExitCriticalSection
+<LI><a href="#[e4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EnterCriticalSection
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> mb.o(i.eMBInit)
+</UL>
+<P><STRONG><a name="[79]"></a>eMBRTUSend</STRONG> (Thumb, 124 bytes, Stack size 24 bytes, mbrtu.o(i.eMBRTUSend))
+<BR><BR>[Stack]<UL><LI>Max Depth = 40<LI>Call Chain = eMBRTUSend &rArr; vMBPortSerialEnable
+</UL>
+<BR>[Calls]<UL><LI><a href="#[e8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;usMBCRC16
+<LI><a href="#[e9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;vMBPortSerialEnable
+<LI><a href="#[e7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ExitCriticalSection
+<LI><a href="#[e4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EnterCriticalSection
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> mb.o(i.eMBInit)
+</UL>
+<P><STRONG><a name="[77]"></a>eMBRTUStart</STRONG> (Thumb, 30 bytes, Stack size 8 bytes, mbrtu.o(i.eMBRTUStart))
+<BR><BR>[Stack]<UL><LI>Max Depth = 96<LI>Call Chain = eMBRTUStart &rArr; vMBPortTimersEnable &rArr; TIMER_Open &rArr; TIMER_GetModuleClock
+</UL>
+<BR>[Calls]<UL><LI><a href="#[ea]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;vMBPortTimersEnable
+<LI><a href="#[e9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;vMBPortSerialEnable
+<LI><a href="#[e7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ExitCriticalSection
+<LI><a href="#[e4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EnterCriticalSection
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> mb.o(i.eMBInit)
+</UL>
+<P><STRONG><a name="[78]"></a>eMBRTUStop</STRONG> (Thumb, 24 bytes, Stack size 8 bytes, mbrtu.o(i.eMBRTUStop))
+<BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = eMBRTUStop &rArr; vMBPortSerialEnable
+</UL>
+<BR>[Calls]<UL><LI><a href="#[eb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;vMBPortTimersDisable
+<LI><a href="#[e9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;vMBPortSerialEnable
+<LI><a href="#[e7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ExitCriticalSection
+<LI><a href="#[e4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EnterCriticalSection
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> mb.o(i.eMBInit)
+</UL>
+<P><STRONG><a name="[db]"></a>eMBRegHoldingCB</STRONG> (Thumb, 188 bytes, Stack size 32 bytes, user_mb_app.o(i.eMBRegHoldingCB))
+<BR><BR>[Stack]<UL><LI>Max Depth = 32<LI>Call Chain = eMBRegHoldingCB
+</UL>
+<BR>[Calls]<UL><LI><a href="#[ec]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xMBMasterGetCBRunInMasterMode
+<LI><a href="#[ed]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ucMBMasterGetDestAddress
+</UL>
+<BR>[Called By]<UL><LI><a href="#[4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;eMBFuncWriteHoldingRegister
+<LI><a href="#[5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;eMBFuncReadWriteMultipleHoldingRegister
+<LI><a href="#[3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;eMBFuncReadHoldingRegister
+</UL>
+
+<P><STRONG><a name="[71]"></a>main</STRONG> (Thumb, 14 bytes, Stack size 8 bytes, startup.o(i.main))
+<BR><BR>[Stack]<UL><LI>Max Depth = 248<LI>Call Chain = main &rArr; rtthread_startup &rArr; rt_application_init &rArr; rt_thread_create &rArr; rt_object_allocate &rArr; rt_malloc &rArr; rt_sem_take &rArr; rt_ipc_list_suspend &rArr; rt_thread_suspend &rArr; rt_schedule_remove_thread
+</UL>
+<BR>[Calls]<UL><LI><a href="#[d3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_hw_interrupt_disable
+<LI><a href="#[ee]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rtthread_startup
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> entry7.o(.ARM.Collect$$$$00000007)
+</UL>
+<P><STRONG><a name="[e3]"></a>peBTFrameSendCur</STRONG> (Thumb, 192 bytes, Stack size 24 bytes, mbrtu.o(i.peBTFrameSendCur))
+<BR><BR>[Stack]<UL><LI>Max Depth = 40<LI>Call Chain = peBTFrameSendCur &rArr; vMBPortSerialEnable
+</UL>
+<BR>[Calls]<UL><LI><a href="#[ef]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;crc_ccitt
+<LI><a href="#[e9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;vMBPortSerialEnable
+<LI><a href="#[e7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ExitCriticalSection
+<LI><a href="#[e4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EnterCriticalSection
+<LI><a href="#[dc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memcpy
+</UL>
+<BR>[Called By]<UL><LI><a href="#[e0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;eMBPoll
+</UL>
+
+<P><STRONG><a name="[aa]"></a>print</STRONG> (Thumb, 22 bytes, Stack size 8 bytes, ds12864.o(i.print))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = print &rArr; LCD_write_dat
+</UL>
+<BR>[Calls]<UL><LI><a href="#[b0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LCD_write_dat
+</UL>
+<BR>[Called By]<UL><LI><a href="#[a8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Display_Task
+</UL>
+
+<P><STRONG><a name="[da]"></a>prveMBError2Exception</STRONG> (Thumb, 34 bytes, Stack size 0 bytes, mbutils.o(i.prveMBError2Exception))
+<BR><BR>[Called By]<UL><LI><a href="#[1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;eBTFuncReadHoldingRegister
+<LI><a href="#[4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;eMBFuncWriteHoldingRegister
+<LI><a href="#[5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;eMBFuncReadWriteMultipleHoldingRegister
+<LI><a href="#[3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;eMBFuncReadHoldingRegister
+</UL>
+
+<P><STRONG><a name="[f0]"></a>rt_application_init</STRONG> (Thumb, 102 bytes, Stack size 24 bytes, application.o(i.rt_application_init))
+<BR><BR>[Stack]<UL><LI>Max Depth = 232<LI>Call Chain = rt_application_init &rArr; rt_thread_create &rArr; rt_object_allocate &rArr; rt_malloc &rArr; rt_sem_take &rArr; rt_ipc_list_suspend &rArr; rt_thread_suspend &rArr; rt_schedule_remove_thread
+</UL>
+<BR>[Calls]<UL><LI><a href="#[f2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_thread_startup
+<LI><a href="#[f3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_thread_init
+<LI><a href="#[f1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_thread_create
+</UL>
+<BR>[Called By]<UL><LI><a href="#[ee]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rtthread_startup
+</UL>
+
+<P><STRONG><a name="[12f]"></a>rt_device_init_all</STRONG> (Thumb, 62 bytes, Stack size 24 bytes, device.o(i.rt_device_init_all))
+<BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = rt_device_init_all
+</UL>
+<BR>[Called By]<UL><LI><a href="#[ee]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rtthread_startup
+</UL>
+
+<P><STRONG><a name="[f4]"></a>rt_free</STRONG> (Thumb, 226 bytes, Stack size 16 bytes, mem.o(i.rt_free))
+<BR><BR>[Stack]<UL><LI>Max Depth = 104<LI>Call Chain = rt_free &rArr; rt_sem_take &rArr; rt_ipc_list_suspend &rArr; rt_thread_suspend &rArr; rt_schedule_remove_thread
+</UL>
+<BR>[Calls]<UL><LI><a href="#[f5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_interrupt_get_nest
+<LI><a href="#[f6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_hw_interrupt_enable
+<LI><a href="#[d3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_hw_interrupt_disable
+<LI><a href="#[f8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;plug_holes
+<LI><a href="#[f7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_sem_take
+<LI><a href="#[f9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_sem_release
+</UL>
+<BR>[Called By]<UL><LI><a href="#[107]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_object_delete
+<LI><a href="#[121]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_thread_idle_excute
+</UL>
+
+<P><STRONG><a name="[fa]"></a>rt_hw_board_init</STRONG> (Thumb, 16 bytes, Stack size 8 bytes, board.o(i.rt_hw_board_init))
+<BR><BR>[Stack]<UL><LI>Max Depth = 92<LI>Call Chain = rt_hw_board_init &rArr; SYS_Config &rArr; ConfigHWSpiport &rArr; SPI_Open &rArr; CLK_GetHCLKFreq &rArr; SystemCoreClockUpdate &rArr; CLK_GetPLLClockFreq
+</UL>
+<BR>[Calls]<UL><LI><a href="#[ba]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SYS_Config
+<LI><a href="#[bb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SYS_Init
+<LI><a href="#[9c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ADE7878_main
+</UL>
+<BR>[Called By]<UL><LI><a href="#[ee]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rtthread_startup
+</UL>
+
+<P><STRONG><a name="[84]"></a>rt_hw_hard_fault_exception</STRONG> (Thumb, 30 bytes, Stack size 16 bytes, cpuport.o(i.rt_hw_hard_fault_exception))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = rt_hw_hard_fault_exception
+</UL>
+<BR>[Called By]<UL><LI><a href="#[8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HardFault_Handler
+</UL>
+
+<P><STRONG><a name="[d6]"></a>rt_hw_stack_init</STRONG> (Thumb, 64 bytes, Stack size 20 bytes, cpuport.o(i.rt_hw_stack_init))
+<BR><BR>[Stack]<UL><LI>Max Depth = 20<LI>Call Chain = rt_hw_stack_init
+</UL>
+<BR>[Called By]<UL><LI><a href="#[d4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_rt_thread_init
+</UL>
+
+<P><STRONG><a name="[7e]"></a>rt_init_thread_entry</STRONG> (Thumb, 48 bytes, Stack size 24 bytes, application.o(i.rt_init_thread_entry))
+<BR><BR>[Stack]<UL><LI>Max Depth = 184<LI>Call Chain = rt_init_thread_entry &rArr; eMBInit &rArr; eMBRTUInit &rArr; xMBPortTimersInit &rArr; TIMER_Open &rArr; TIMER_GetModuleClock
+</UL>
+<BR>[Calls]<UL><LI><a href="#[dd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;eMBInit
+<LI><a href="#[fb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;eMBEnable
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> application.o(i.rt_application_init)
+</UL>
+<P><STRONG><a name="[c0]"></a>rt_interrupt_enter</STRONG> (Thumb, 30 bytes, Stack size 8 bytes, irq.o(i.rt_interrupt_enter))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = rt_interrupt_enter
+</UL>
+<BR>[Calls]<UL><LI><a href="#[f6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_hw_interrupt_enable
+<LI><a href="#[d3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_hw_interrupt_disable
+</UL>
+<BR>[Called By]<UL><LI><a href="#[f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SysTick_Handler
+</UL>
+
+<P><STRONG><a name="[f5]"></a>rt_interrupt_get_nest</STRONG> (Thumb, 6 bytes, Stack size 0 bytes, irq.o(i.rt_interrupt_get_nest))
+<BR><BR>[Called By]<UL><LI><a href="#[f4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_free
+<LI><a href="#[121]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_thread_idle_excute
+<LI><a href="#[116]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_system_heap_init
+<LI><a href="#[104]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_object_allocate
+<LI><a href="#[103]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_malloc
+<LI><a href="#[f7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_sem_take
+</UL>
+
+<P><STRONG><a name="[c2]"></a>rt_interrupt_leave</STRONG> (Thumb, 30 bytes, Stack size 8 bytes, irq.o(i.rt_interrupt_leave))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = rt_interrupt_leave
+</UL>
+<BR>[Calls]<UL><LI><a href="#[f6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_hw_interrupt_enable
+<LI><a href="#[d3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_hw_interrupt_disable
+</UL>
+<BR>[Called By]<UL><LI><a href="#[f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SysTick_Handler
+</UL>
+
+<P><STRONG><a name="[103]"></a>rt_malloc</STRONG> (Thumb, 494 bytes, Stack size 32 bytes, mem.o(i.rt_malloc))
+<BR><BR>[Stack]<UL><LI>Max Depth = 120<LI>Call Chain = rt_malloc &rArr; rt_sem_take &rArr; rt_ipc_list_suspend &rArr; rt_thread_suspend &rArr; rt_schedule_remove_thread
+</UL>
+<BR>[Calls]<UL><LI><a href="#[f5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_interrupt_get_nest
+<LI><a href="#[f6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_hw_interrupt_enable
+<LI><a href="#[d3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_hw_interrupt_disable
+<LI><a href="#[f7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_sem_take
+<LI><a href="#[f9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_sem_release
+</UL>
+<BR>[Called By]<UL><LI><a href="#[f1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_thread_create
+<LI><a href="#[104]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_object_allocate
+</UL>
+
+<P><STRONG><a name="[d5]"></a>rt_memset</STRONG> (Thumb, 72 bytes, Stack size 20 bytes, kservice.o(i.rt_memset))
+<BR><BR>[Stack]<UL><LI>Max Depth = 20<LI>Call Chain = rt_memset
+</UL>
+<BR>[Called By]<UL><LI><a href="#[d4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_rt_thread_init
+</UL>
+
+<P><STRONG><a name="[104]"></a>rt_object_allocate</STRONG> (Thumb, 122 bytes, Stack size 32 bytes, object.o(i.rt_object_allocate))
+<BR><BR>[Stack]<UL><LI>Max Depth = 152<LI>Call Chain = rt_object_allocate &rArr; rt_malloc &rArr; rt_sem_take &rArr; rt_ipc_list_suspend &rArr; rt_thread_suspend &rArr; rt_schedule_remove_thread
+</UL>
+<BR>[Calls]<UL><LI><a href="#[f5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_interrupt_get_nest
+<LI><a href="#[f6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_hw_interrupt_enable
+<LI><a href="#[d3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_hw_interrupt_disable
+<LI><a href="#[106]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_list_insert_after
+<LI><a href="#[105]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_strncpy
+<LI><a href="#[103]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_malloc
+</UL>
+<BR>[Called By]<UL><LI><a href="#[f1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_thread_create
+</UL>
+
+<P><STRONG><a name="[107]"></a>rt_object_delete</STRONG> (Thumb, 80 bytes, Stack size 16 bytes, object.o(i.rt_object_delete))
+<BR><BR>[Stack]<UL><LI>Max Depth = 120<LI>Call Chain = rt_object_delete &rArr; rt_free &rArr; rt_sem_take &rArr; rt_ipc_list_suspend &rArr; rt_thread_suspend &rArr; rt_schedule_remove_thread
+</UL>
+<BR>[Calls]<UL><LI><a href="#[f4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_free
+<LI><a href="#[f6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_hw_interrupt_enable
+<LI><a href="#[d3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_hw_interrupt_disable
+<LI><a href="#[108]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_list_remove
+</UL>
+<BR>[Called By]<UL><LI><a href="#[121]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_thread_idle_excute
+<LI><a href="#[f1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_thread_create
+</UL>
+
+<P><STRONG><a name="[109]"></a>rt_object_detach</STRONG> (Thumb, 56 bytes, Stack size 16 bytes, object.o(i.rt_object_detach))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = rt_object_detach
+</UL>
+<BR>[Calls]<UL><LI><a href="#[f6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_hw_interrupt_enable
+<LI><a href="#[d3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_hw_interrupt_disable
+<LI><a href="#[108]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_list_remove
+</UL>
+<BR>[Called By]<UL><LI><a href="#[11e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_timer_detach
+<LI><a href="#[75]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_thread_exit
+</UL>
+
+<P><STRONG><a name="[10a]"></a>rt_object_init</STRONG> (Thumb, 76 bytes, Stack size 24 bytes, object.o(i.rt_object_init))
+<BR><BR>[Stack]<UL><LI>Max Depth = 36<LI>Call Chain = rt_object_init &rArr; rt_strncpy
+</UL>
+<BR>[Calls]<UL><LI><a href="#[f6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_hw_interrupt_enable
+<LI><a href="#[d3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_hw_interrupt_disable
+<LI><a href="#[106]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_list_insert_after
+<LI><a href="#[105]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_strncpy
+</UL>
+<BR>[Called By]<UL><LI><a href="#[f3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_thread_init
+<LI><a href="#[d7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_timer_init
+<LI><a href="#[111]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_sem_init
+</UL>
+
+<P><STRONG><a name="[11f]"></a>rt_object_is_systemobject</STRONG> (Thumb, 30 bytes, Stack size 0 bytes, object.o(i.rt_object_is_systemobject))
+<BR><BR>[Called By]<UL><LI><a href="#[121]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_thread_idle_excute
+<LI><a href="#[75]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_thread_exit
+</UL>
+
+<P><STRONG><a name="[10b]"></a>rt_schedule</STRONG> (Thumb, 132 bytes, Stack size 24 bytes, scheduler.o(i.rt_schedule))
+<BR><BR>[Stack]<UL><LI>Max Depth = 40<LI>Call Chain = rt_schedule &rArr; _rt_scheduler_stack_check
+</UL>
+<BR>[Calls]<UL><LI><a href="#[f6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_hw_interrupt_enable
+<LI><a href="#[d3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_hw_interrupt_disable
+<LI><a href="#[10e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_hw_context_switch_interrupt
+<LI><a href="#[10d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_hw_context_switch
+<LI><a href="#[d2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_rt_scheduler_stack_check
+<LI><a href="#[10c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rt_ffs
+</UL>
+<BR>[Called By]<UL><LI><a href="#[f2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_thread_startup
+<LI><a href="#[126]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_thread_yield
+<LI><a href="#[76]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_thread_timeout
+<LI><a href="#[11d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_thread_sleep
+<LI><a href="#[75]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_thread_exit
+<LI><a href="#[f7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_sem_take
+<LI><a href="#[f9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_sem_release
+</UL>
+
+<P><STRONG><a name="[10f]"></a>rt_schedule_insert_thread</STRONG> (Thumb, 80 bytes, Stack size 16 bytes, scheduler.o(i.rt_schedule_insert_thread))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = rt_schedule_insert_thread
+</UL>
+<BR>[Calls]<UL><LI><a href="#[f6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_hw_interrupt_enable
+<LI><a href="#[d3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_hw_interrupt_disable
+</UL>
+<BR>[Called By]<UL><LI><a href="#[76]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_thread_timeout
+<LI><a href="#[fd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_thread_resume
+</UL>
+
+<P><STRONG><a name="[110]"></a>rt_schedule_remove_thread</STRONG> (Thumb, 92 bytes, Stack size 16 bytes, scheduler.o(i.rt_schedule_remove_thread))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = rt_schedule_remove_thread
+</UL>
+<BR>[Calls]<UL><LI><a href="#[f6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_hw_interrupt_enable
+<LI><a href="#[d3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_hw_interrupt_disable
+</UL>
+<BR>[Called By]<UL><LI><a href="#[75]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_thread_exit
+<LI><a href="#[ff]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_thread_suspend
+</UL>
+
+<P><STRONG><a name="[111]"></a>rt_sem_init</STRONG> (Thumb, 50 bytes, Stack size 24 bytes, ipc.o(i.rt_sem_init))
+<BR><BR>[Stack]<UL><LI>Max Depth = 60<LI>Call Chain = rt_sem_init &rArr; rt_object_init &rArr; rt_strncpy
+</UL>
+<BR>[Calls]<UL><LI><a href="#[101]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_ipc_object_init
+<LI><a href="#[10a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_object_init
+</UL>
+<BR>[Called By]<UL><LI><a href="#[116]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_system_heap_init
+</UL>
+
+<P><STRONG><a name="[f9]"></a>rt_sem_release</STRONG> (Thumb, 80 bytes, Stack size 16 bytes, ipc.o(i.rt_sem_release))
+<BR><BR>[Stack]<UL><LI>Max Depth = 72<LI>Call Chain = rt_sem_release &rArr; rt_ipc_list_resume &rArr; rt_thread_resume &rArr; rt_timer_stop &rArr; _rt_timer_remove
+</UL>
+<BR>[Calls]<UL><LI><a href="#[112]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_list_isempty
+<LI><a href="#[fc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_ipc_list_resume
+<LI><a href="#[f6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_hw_interrupt_enable
+<LI><a href="#[d3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_hw_interrupt_disable
+<LI><a href="#[10b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_schedule
+</UL>
+<BR>[Called By]<UL><LI><a href="#[f4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_free
+<LI><a href="#[103]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_malloc
+</UL>
+
+<P><STRONG><a name="[f7]"></a>rt_sem_take</STRONG> (Thumb, 244 bytes, Stack size 32 bytes, ipc.o(i.rt_sem_take))
+<BR><BR>[Stack]<UL><LI>Max Depth = 88<LI>Call Chain = rt_sem_take &rArr; rt_ipc_list_suspend &rArr; rt_thread_suspend &rArr; rt_schedule_remove_thread
+</UL>
+<BR>[Calls]<UL><LI><a href="#[fe]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_ipc_list_suspend
+<LI><a href="#[f5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_interrupt_get_nest
+<LI><a href="#[113]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_thread_self
+<LI><a href="#[f6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_hw_interrupt_enable
+<LI><a href="#[d3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_hw_interrupt_disable
+<LI><a href="#[115]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_timer_start
+<LI><a href="#[114]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_timer_control
+<LI><a href="#[10b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_schedule
+</UL>
+<BR>[Called By]<UL><LI><a href="#[f4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_free
+<LI><a href="#[103]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_malloc
+</UL>
+
+<P><STRONG><a name="[12c]"></a>rt_show_version</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, kservice.o(i.rt_show_version))
+<BR><BR>[Called By]<UL><LI><a href="#[ee]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rtthread_startup
+</UL>
+
+<P><STRONG><a name="[105]"></a>rt_strncpy</STRONG> (Thumb, 52 bytes, Stack size 12 bytes, kservice.o(i.rt_strncpy))
+<BR><BR>[Stack]<UL><LI>Max Depth = 12<LI>Call Chain = rt_strncpy
+</UL>
+<BR>[Called By]<UL><LI><a href="#[10a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_object_init
+<LI><a href="#[104]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_object_allocate
+</UL>
+
+<P><STRONG><a name="[116]"></a>rt_system_heap_init</STRONG> (Thumb, 182 bytes, Stack size 32 bytes, mem.o(i.rt_system_heap_init))
+<BR><BR>[Stack]<UL><LI>Max Depth = 92<LI>Call Chain = rt_system_heap_init &rArr; rt_sem_init &rArr; rt_object_init &rArr; rt_strncpy
+</UL>
+<BR>[Calls]<UL><LI><a href="#[f5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_interrupt_get_nest
+<LI><a href="#[f6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_hw_interrupt_enable
+<LI><a href="#[d3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_hw_interrupt_disable
+<LI><a href="#[111]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_sem_init
+</UL>
+<BR>[Called By]<UL><LI><a href="#[ee]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rtthread_startup
+</UL>
+
+<P><STRONG><a name="[12e]"></a>rt_system_object_init</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, object.o(i.rt_system_object_init))
+<BR><BR>[Called By]<UL><LI><a href="#[ee]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rtthread_startup
+</UL>
+
+<P><STRONG><a name="[117]"></a>rt_system_scheduler_init</STRONG> (Thumb, 56 bytes, Stack size 8 bytes, scheduler.o(i.rt_system_scheduler_init))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = rt_system_scheduler_init
+</UL>
+<BR>[Calls]<UL><LI><a href="#[118]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_list_init
+</UL>
+<BR>[Called By]<UL><LI><a href="#[ee]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rtthread_startup
+</UL>
+
+<P><STRONG><a name="[119]"></a>rt_system_scheduler_start</STRONG> (Thumb, 36 bytes, Stack size 16 bytes, scheduler.o(i.rt_system_scheduler_start))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = rt_system_scheduler_start
+</UL>
+<BR>[Calls]<UL><LI><a href="#[11a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_hw_context_switch_to
+<LI><a href="#[10c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rt_ffs
+</UL>
+<BR>[Called By]<UL><LI><a href="#[ee]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rtthread_startup
+</UL>
+
+<P><STRONG><a name="[12d]"></a>rt_system_tick_init</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, clock.o(i.rt_system_tick_init))
+<BR><BR>[Called By]<UL><LI><a href="#[ee]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rtthread_startup
+</UL>
+
+<P><STRONG><a name="[11b]"></a>rt_system_timer_init</STRONG> (Thumb, 24 bytes, Stack size 8 bytes, timer.o(i.rt_system_timer_init))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = rt_system_timer_init
+</UL>
+<BR>[Calls]<UL><LI><a href="#[d9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_list_init
+</UL>
+<BR>[Called By]<UL><LI><a href="#[ee]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rtthread_startup
+</UL>
+
+<P><STRONG><a name="[130]"></a>rt_system_timer_thread_init</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, timer.o(i.rt_system_timer_thread_init))
+<BR><BR>[Called By]<UL><LI><a href="#[ee]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rtthread_startup
+</UL>
+
+<P><STRONG><a name="[f1]"></a>rt_thread_create</STRONG> (Thumb, 84 bytes, Stack size 56 bytes, thread.o(i.rt_thread_create))
+<BR><BR>[Stack]<UL><LI>Max Depth = 208<LI>Call Chain = rt_thread_create &rArr; rt_object_allocate &rArr; rt_malloc &rArr; rt_sem_take &rArr; rt_ipc_list_suspend &rArr; rt_thread_suspend &rArr; rt_schedule_remove_thread
+</UL>
+<BR>[Calls]<UL><LI><a href="#[107]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_object_delete
+<LI><a href="#[d4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_rt_thread_init
+<LI><a href="#[104]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_object_allocate
+<LI><a href="#[103]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_malloc
+</UL>
+<BR>[Called By]<UL><LI><a href="#[f0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_application_init
+</UL>
+
+<P><STRONG><a name="[11c]"></a>rt_thread_delay</STRONG> (Thumb, 12 bytes, Stack size 8 bytes, thread.o(i.rt_thread_delay))
+<BR><BR>[Stack]<UL><LI>Max Depth = 64<LI>Call Chain = rt_thread_delay &rArr; rt_thread_sleep &rArr; rt_schedule &rArr; _rt_scheduler_stack_check
+</UL>
+<BR>[Calls]<UL><LI><a href="#[11d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_thread_sleep
+</UL>
+<BR>[Called By]<UL><LI><a href="#[80]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_thread_entry_Rs485comm
+<LI><a href="#[7f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_thread_entry_PowerMeasurment
+</UL>
+
+<P><STRONG><a name="[121]"></a>rt_thread_idle_excute</STRONG> (Thumb, 150 bytes, Stack size 16 bytes, idle.o(i.rt_thread_idle_excute))
+<BR><BR>[Stack]<UL><LI>Max Depth = 136<LI>Call Chain = rt_thread_idle_excute &rArr; rt_object_delete &rArr; rt_free &rArr; rt_sem_take &rArr; rt_ipc_list_suspend &rArr; rt_thread_suspend &rArr; rt_schedule_remove_thread
+</UL>
+<BR>[Calls]<UL><LI><a href="#[11f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_object_is_systemobject
+<LI><a href="#[107]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_object_delete
+<LI><a href="#[f5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_interrupt_get_nest
+<LI><a href="#[f4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_free
+<LI><a href="#[122]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_list_isempty
+<LI><a href="#[f6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_hw_interrupt_enable
+<LI><a href="#[d3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_hw_interrupt_disable
+</UL>
+<BR>[Called By]<UL><LI><a href="#[81]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_thread_idle_entry
+</UL>
+
+<P><STRONG><a name="[123]"></a>rt_thread_idle_init</STRONG> (Thumb, 34 bytes, Stack size 24 bytes, idle.o(i.rt_thread_idle_init))
+<BR><BR>[Stack]<UL><LI>Max Depth = 196<LI>Call Chain = rt_thread_idle_init &rArr; rt_thread_init &rArr; _rt_thread_init &rArr; rt_timer_init &rArr; rt_object_init &rArr; rt_strncpy
+</UL>
+<BR>[Calls]<UL><LI><a href="#[f2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_thread_startup
+<LI><a href="#[f3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_thread_init
+</UL>
+<BR>[Called By]<UL><LI><a href="#[ee]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rtthread_startup
+</UL>
+
+<P><STRONG><a name="[f3]"></a>rt_thread_init</STRONG> (Thumb, 74 bytes, Stack size 56 bytes, thread.o(i.rt_thread_init))
+<BR><BR>[Stack]<UL><LI>Max Depth = 172<LI>Call Chain = rt_thread_init &rArr; _rt_thread_init &rArr; rt_timer_init &rArr; rt_object_init &rArr; rt_strncpy
+</UL>
+<BR>[Calls]<UL><LI><a href="#[10a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_object_init
+<LI><a href="#[d4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_rt_thread_init
+</UL>
+<BR>[Called By]<UL><LI><a href="#[123]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_thread_idle_init
+<LI><a href="#[f0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_application_init
+</UL>
+
+<P><STRONG><a name="[fd]"></a>rt_thread_resume</STRONG> (Thumb, 76 bytes, Stack size 16 bytes, thread.o(i.rt_thread_resume))
+<BR><BR>[Stack]<UL><LI>Max Depth = 40<LI>Call Chain = rt_thread_resume &rArr; rt_timer_stop &rArr; _rt_timer_remove
+</UL>
+<BR>[Calls]<UL><LI><a href="#[f6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_hw_interrupt_enable
+<LI><a href="#[d3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_hw_interrupt_disable
+<LI><a href="#[125]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_timer_stop
+<LI><a href="#[124]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_list_remove
+<LI><a href="#[10f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_schedule_insert_thread
+</UL>
+<BR>[Called By]<UL><LI><a href="#[fc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_ipc_list_resume
+<LI><a href="#[f2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_thread_startup
+</UL>
+
+<P><STRONG><a name="[113]"></a>rt_thread_self</STRONG> (Thumb, 6 bytes, Stack size 0 bytes, thread.o(i.rt_thread_self))
+<BR><BR>[Called By]<UL><LI><a href="#[c1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_tick_increase
+<LI><a href="#[f2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_thread_startup
+<LI><a href="#[f7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_sem_take
+</UL>
+
+<P><STRONG><a name="[11d]"></a>rt_thread_sleep</STRONG> (Thumb, 72 bytes, Stack size 16 bytes, thread.o(i.rt_thread_sleep))
+<BR><BR>[Stack]<UL><LI>Max Depth = 56<LI>Call Chain = rt_thread_sleep &rArr; rt_schedule &rArr; _rt_scheduler_stack_check
+</UL>
+<BR>[Calls]<UL><LI><a href="#[f6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_hw_interrupt_enable
+<LI><a href="#[d3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_hw_interrupt_disable
+<LI><a href="#[115]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_timer_start
+<LI><a href="#[114]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_timer_control
+<LI><a href="#[ff]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_thread_suspend
+<LI><a href="#[10b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_schedule
+</UL>
+<BR>[Called By]<UL><LI><a href="#[11c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_thread_delay
+</UL>
+
+<P><STRONG><a name="[f2]"></a>rt_thread_startup</STRONG> (Thumb, 88 bytes, Stack size 8 bytes, thread.o(i.rt_thread_startup))
+<BR><BR>[Stack]<UL><LI>Max Depth = 48<LI>Call Chain = rt_thread_startup &rArr; rt_thread_resume &rArr; rt_timer_stop &rArr; _rt_timer_remove
+</UL>
+<BR>[Calls]<UL><LI><a href="#[113]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_thread_self
+<LI><a href="#[fd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_thread_resume
+<LI><a href="#[10b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_schedule
+</UL>
+<BR>[Called By]<UL><LI><a href="#[123]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_thread_idle_init
+<LI><a href="#[f0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_application_init
+</UL>
+
+<P><STRONG><a name="[ff]"></a>rt_thread_suspend</STRONG> (Thumb, 66 bytes, Stack size 16 bytes, thread.o(i.rt_thread_suspend))
+<BR><BR>[Stack]<UL><LI>Max Depth = 32<LI>Call Chain = rt_thread_suspend &rArr; rt_schedule_remove_thread
+</UL>
+<BR>[Calls]<UL><LI><a href="#[f6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_hw_interrupt_enable
+<LI><a href="#[d3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_hw_interrupt_disable
+<LI><a href="#[110]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_schedule_remove_thread
+</UL>
+<BR>[Called By]<UL><LI><a href="#[fe]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_ipc_list_suspend
+<LI><a href="#[11d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_thread_sleep
+</UL>
+
+<P><STRONG><a name="[76]"></a>rt_thread_timeout</STRONG> (Thumb, 62 bytes, Stack size 16 bytes, thread.o(i.rt_thread_timeout))
+<BR><BR>[Stack]<UL><LI>Max Depth = 56<LI>Call Chain = rt_thread_timeout &rArr; rt_schedule &rArr; _rt_scheduler_stack_check
+</UL>
+<BR>[Calls]<UL><LI><a href="#[124]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_list_remove
+<LI><a href="#[10f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_schedule_insert_thread
+<LI><a href="#[10b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_schedule
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> thread.o(i._rt_thread_init)
+</UL>
+<P><STRONG><a name="[126]"></a>rt_thread_yield</STRONG> (Thumb, 88 bytes, Stack size 16 bytes, thread.o(i.rt_thread_yield))
+<BR><BR>[Stack]<UL><LI>Max Depth = 56<LI>Call Chain = rt_thread_yield &rArr; rt_schedule &rArr; _rt_scheduler_stack_check
+</UL>
+<BR>[Calls]<UL><LI><a href="#[f6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_hw_interrupt_enable
+<LI><a href="#[d3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_hw_interrupt_disable
+<LI><a href="#[124]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_list_remove
+<LI><a href="#[10b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_schedule
+</UL>
+<BR>[Called By]<UL><LI><a href="#[c1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_tick_increase
+</UL>
+
+<P><STRONG><a name="[128]"></a>rt_tick_get</STRONG> (Thumb, 6 bytes, Stack size 0 bytes, clock.o(i.rt_tick_get))
+<BR><BR>[Called By]<UL><LI><a href="#[127]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_timer_check
+<LI><a href="#[115]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_timer_start
+</UL>
+
+<P><STRONG><a name="[c1]"></a>rt_tick_increase</STRONG> (Thumb, 42 bytes, Stack size 8 bytes, clock.o(i.rt_tick_increase))
+<BR><BR>[Stack]<UL><LI>Max Depth = 64<LI>Call Chain = rt_tick_increase &rArr; rt_thread_yield &rArr; rt_schedule &rArr; _rt_scheduler_stack_check
+</UL>
+<BR>[Calls]<UL><LI><a href="#[127]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_timer_check
+<LI><a href="#[126]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_thread_yield
+<LI><a href="#[113]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_thread_self
+</UL>
+<BR>[Called By]<UL><LI><a href="#[f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SysTick_Handler
+</UL>
+
+<P><STRONG><a name="[127]"></a>rt_timer_check</STRONG> (Thumb, 148 bytes, Stack size 16 bytes, timer.o(i.rt_timer_check))
+<BR><BR>[Stack]<UL><LI>Max Depth = 48<LI>Call Chain = rt_timer_check &rArr; rt_timer_start
+</UL>
+<BR>[Calls]<UL><LI><a href="#[f6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_hw_interrupt_enable
+<LI><a href="#[d3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_hw_interrupt_disable
+<LI><a href="#[128]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_tick_get
+<LI><a href="#[12a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_list_isempty
+<LI><a href="#[129]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_rt_timer_remove
+<LI><a href="#[115]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_timer_start
+</UL>
+<BR>[Called By]<UL><LI><a href="#[c1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_tick_increase
+</UL>
+
+<P><STRONG><a name="[114]"></a>rt_timer_control</STRONG> (Thumb, 70 bytes, Stack size 8 bytes, timer.o(i.rt_timer_control))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = rt_timer_control
+</UL>
+<BR>[Called By]<UL><LI><a href="#[11d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_thread_sleep
+<LI><a href="#[f7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_sem_take
+</UL>
+
+<P><STRONG><a name="[11e]"></a>rt_timer_detach</STRONG> (Thumb, 44 bytes, Stack size 16 bytes, timer.o(i.rt_timer_detach))
+<BR><BR>[Stack]<UL><LI>Max Depth = 32<LI>Call Chain = rt_timer_detach &rArr; rt_object_detach
+</UL>
+<BR>[Calls]<UL><LI><a href="#[109]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_object_detach
+<LI><a href="#[f6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_hw_interrupt_enable
+<LI><a href="#[d3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_hw_interrupt_disable
+<LI><a href="#[129]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_rt_timer_remove
+</UL>
+<BR>[Called By]<UL><LI><a href="#[75]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_thread_exit
+</UL>
+
+<P><STRONG><a name="[d7]"></a>rt_timer_init</STRONG> (Thumb, 58 bytes, Stack size 32 bytes, timer.o(i.rt_timer_init))
+<BR><BR>[Stack]<UL><LI>Max Depth = 68<LI>Call Chain = rt_timer_init &rArr; rt_object_init &rArr; rt_strncpy
+</UL>
+<BR>[Calls]<UL><LI><a href="#[10a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_object_init
+<LI><a href="#[d8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_rt_timer_init
+</UL>
+<BR>[Called By]<UL><LI><a href="#[d4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_rt_thread_init
+</UL>
+
+<P><STRONG><a name="[115]"></a>rt_timer_start</STRONG> (Thumb, 276 bytes, Stack size 32 bytes, timer.o(i.rt_timer_start))
+<BR><BR>[Stack]<UL><LI>Max Depth = 32<LI>Call Chain = rt_timer_start
+</UL>
+<BR>[Calls]<UL><LI><a href="#[f6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_hw_interrupt_enable
+<LI><a href="#[d3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_hw_interrupt_disable
+<LI><a href="#[128]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_tick_get
+<LI><a href="#[12b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_list_insert_after
+</UL>
+<BR>[Called By]<UL><LI><a href="#[127]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_timer_check
+<LI><a href="#[11d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_thread_sleep
+<LI><a href="#[f7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_sem_take
+</UL>
+
+<P><STRONG><a name="[125]"></a>rt_timer_stop</STRONG> (Thumb, 78 bytes, Stack size 16 bytes, timer.o(i.rt_timer_stop))
+<BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = rt_timer_stop &rArr; _rt_timer_remove
+</UL>
+<BR>[Calls]<UL><LI><a href="#[f6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_hw_interrupt_enable
+<LI><a href="#[d3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_hw_interrupt_disable
+<LI><a href="#[129]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_rt_timer_remove
+</UL>
+<BR>[Called By]<UL><LI><a href="#[fd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_thread_resume
+</UL>
+
+<P><STRONG><a name="[ee]"></a>rtthread_startup</STRONG> (Thumb, 56 bytes, Stack size 8 bytes, startup.o(i.rtthread_startup))
+<BR><BR>[Stack]<UL><LI>Max Depth = 240<LI>Call Chain = rtthread_startup &rArr; rt_application_init &rArr; rt_thread_create &rArr; rt_object_allocate &rArr; rt_malloc &rArr; rt_sem_take &rArr; rt_ipc_list_suspend &rArr; rt_thread_suspend &rArr; rt_schedule_remove_thread
+</UL>
+<BR>[Calls]<UL><LI><a href="#[123]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_thread_idle_init
+<LI><a href="#[12f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_device_init_all
+<LI><a href="#[12d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_system_tick_init
+<LI><a href="#[fa]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_hw_board_init
+<LI><a href="#[130]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_system_timer_thread_init
+<LI><a href="#[11b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_system_timer_init
+<LI><a href="#[119]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_system_scheduler_start
+<LI><a href="#[117]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_system_scheduler_init
+<LI><a href="#[12e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_system_object_init
+<LI><a href="#[116]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_system_heap_init
+<LI><a href="#[12c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_show_version
+<LI><a href="#[f0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_application_init
+</UL>
+<BR>[Called By]<UL><LI><a href="#[71]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
+<P><STRONG><a name="[ed]"></a>ucMBMasterGetDestAddress</STRONG> (Thumb, 4 bytes, Stack size 0 bytes, user_mb_app.o(i.ucMBMasterGetDestAddress))
+<BR><BR>[Called By]<UL><LI><a href="#[db]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;eMBRegHoldingCB
+</UL>
+
+<P><STRONG><a name="[e8]"></a>usMBCRC16</STRONG> (Thumb, 48 bytes, Stack size 12 bytes, mbcrc.o(i.usMBCRC16))
+<BR><BR>[Stack]<UL><LI>Max Depth = 12<LI>Call Chain = usMBCRC16
+</UL>
+<BR>[Called By]<UL><LI><a href="#[79]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;eMBRTUSend
+<LI><a href="#[7a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;eMBRTUReceive
+</UL>
+
+<P><STRONG><a name="[e9]"></a>vMBPortSerialEnable</STRONG> (Thumb, 62 bytes, Stack size 16 bytes, portserial.o(i.vMBPortSerialEnable))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = vMBPortSerialEnable
+</UL>
+<BR>[Calls]<UL><LI><a href="#[131]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;UART_EnableInt
+<LI><a href="#[132]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;UART_DisableInt
+</UL>
+<BR>[Called By]<UL><LI><a href="#[7c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xMBRTUTransmitFSM
+<LI><a href="#[e3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;peBTFrameSendCur
+<LI><a href="#[78]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;eMBRTUStop
+<LI><a href="#[77]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;eMBRTUStart
+<LI><a href="#[79]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;eMBRTUSend
+</UL>
+
+<P><STRONG><a name="[eb]"></a>vMBPortTimersDisable</STRONG> (Thumb, 26 bytes, Stack size 8 bytes, porttimer.o(i.vMBPortTimersDisable))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = vMBPortTimersDisable
+</UL>
+<BR>[Calls]<UL><LI><a href="#[134]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TIMER_Close
+<LI><a href="#[133]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TIMER_Stop
+</UL>
+<BR>[Called By]<UL><LI><a href="#[7d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xMBRTUTimerT35Expired
+<LI><a href="#[78]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;eMBRTUStop
+</UL>
+
+<P><STRONG><a name="[ea]"></a>vMBPortTimersEnable</STRONG> (Thumb, 66 bytes, Stack size 8 bytes, porttimer.o(i.vMBPortTimersEnable))
+<BR><BR>[Stack]<UL><LI>Max Depth = 88<LI>Call Chain = vMBPortTimersEnable &rArr; TIMER_Open &rArr; TIMER_GetModuleClock
+</UL>
+<BR>[Calls]<UL><LI><a href="#[c6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TIMER_Open
+<LI><a href="#[135]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TIMER_EnableInt
+<LI><a href="#[136]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;NVIC_SetPriority
+<LI><a href="#[137]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;NVIC_EnableIRQ
+</UL>
+<BR>[Called By]<UL><LI><a href="#[7b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xMBRTUReceiveFSM
+<LI><a href="#[77]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;eMBRTUStart
+</UL>
+
+<P><STRONG><a name="[ec]"></a>xMBMasterGetCBRunInMasterMode</STRONG> (Thumb, 4 bytes, Stack size 0 bytes, user_mb_app.o(i.xMBMasterGetCBRunInMasterMode))
+<BR><BR>[Called By]<UL><LI><a href="#[db]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;eMBRegHoldingCB
+</UL>
+
+<P><STRONG><a name="[e1]"></a>xMBPortEventGet</STRONG> (Thumb, 26 bytes, Stack size 0 bytes, portevent.o(i.xMBPortEventGet))
+<BR><BR>[Called By]<UL><LI><a href="#[e0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;eMBPoll
+</UL>
+
+<P><STRONG><a name="[df]"></a>xMBPortEventInit</STRONG> (Thumb, 10 bytes, Stack size 0 bytes, portevent.o(i.xMBPortEventInit))
+<BR><BR>[Called By]<UL><LI><a href="#[dd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;eMBInit
+</UL>
+
+<P><STRONG><a name="[e2]"></a>xMBPortEventPost</STRONG> (Thumb, 16 bytes, Stack size 0 bytes, portevent.o(i.xMBPortEventPost))
+<BR><BR>[Called By]<UL><LI><a href="#[e0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;eMBPoll
+<LI><a href="#[7c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xMBRTUTransmitFSM
+<LI><a href="#[7d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xMBRTUTimerT35Expired
+</UL>
+
+<P><STRONG><a name="[13a]"></a>xMBPortSerialGetByte</STRONG> (Thumb, 12 bytes, Stack size 0 bytes, portserial.o(i.xMBPortSerialGetByte))
+<BR><BR>[Called By]<UL><LI><a href="#[7b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xMBRTUReceiveFSM
+</UL>
+
+<P><STRONG><a name="[e5]"></a>xMBPortSerialInit</STRONG> (Thumb, 160 bytes, Stack size 24 bytes, portserial.o(i.xMBPortSerialInit))
+<BR><BR>[Stack]<UL><LI>Max Depth = 76<LI>Call Chain = xMBPortSerialInit &rArr; UART_Open &rArr; CLK_GetPLLClockFreq
+</UL>
+<BR>[Calls]<UL><LI><a href="#[ca]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;UART_Open
+<LI><a href="#[97]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GPIO_SetMode
+<LI><a href="#[138]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CLK_SetModuleClock
+<LI><a href="#[a2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CLK_EnableModuleClock
+<LI><a href="#[131]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;UART_EnableInt
+<LI><a href="#[139]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;UART_DisableFlowCtrl
+<LI><a href="#[e7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ExitCriticalSection
+<LI><a href="#[e4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EnterCriticalSection
+</UL>
+<BR>[Called By]<UL><LI><a href="#[de]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;eMBRTUInit
+</UL>
+
+<P><STRONG><a name="[13b]"></a>xMBPortSerialPutByte</STRONG> (Thumb, 10 bytes, Stack size 0 bytes, portserial.o(i.xMBPortSerialPutByte))
+<BR><BR>[Called By]<UL><LI><a href="#[7c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xMBRTUTransmitFSM
+</UL>
+
+<P><STRONG><a name="[e6]"></a>xMBPortTimersInit</STRONG> (Thumb, 84 bytes, Stack size 16 bytes, porttimer.o(i.xMBPortTimersInit))
+<BR><BR>[Stack]<UL><LI>Max Depth = 96<LI>Call Chain = xMBPortTimersInit &rArr; TIMER_Open &rArr; TIMER_GetModuleClock
+</UL>
+<BR>[Calls]<UL><LI><a href="#[c6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TIMER_Open
+<LI><a href="#[138]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CLK_SetModuleClock
+<LI><a href="#[a2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CLK_EnableModuleClock
+<LI><a href="#[133]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TIMER_Stop
+<LI><a href="#[135]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TIMER_EnableInt
+<LI><a href="#[136]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;NVIC_SetPriority
+<LI><a href="#[137]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;NVIC_EnableIRQ
+</UL>
+<BR>[Called By]<UL><LI><a href="#[de]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;eMBRTUInit
+</UL>
+
+<P><STRONG><a name="[7b]"></a>xMBRTUReceiveFSM</STRONG> (Thumb, 122 bytes, Stack size 16 bytes, mbrtu.o(i.xMBRTUReceiveFSM))
+<BR><BR>[Stack]<UL><LI>Max Depth = 104<LI>Call Chain = xMBRTUReceiveFSM &rArr; vMBPortTimersEnable &rArr; TIMER_Open &rArr; TIMER_GetModuleClock
+</UL>
+<BR>[Calls]<UL><LI><a href="#[ea]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;vMBPortTimersEnable
+<LI><a href="#[13a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xMBPortSerialGetByte
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> mb.o(i.eMBInit)
+</UL>
+<P><STRONG><a name="[7d]"></a>xMBRTUTimerT35Expired</STRONG> (Thumb, 60 bytes, Stack size 8 bytes, mbrtu.o(i.xMBRTUTimerT35Expired))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = xMBRTUTimerT35Expired &rArr; vMBPortTimersDisable
+</UL>
+<BR>[Calls]<UL><LI><a href="#[eb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;vMBPortTimersDisable
+<LI><a href="#[e2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xMBPortEventPost
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> mb.o(i.eMBInit)
+</UL>
+<P><STRONG><a name="[7c]"></a>xMBRTUTransmitFSM</STRONG> (Thumb, 94 bytes, Stack size 8 bytes, mbrtu.o(i.xMBRTUTransmitFSM))
+<BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = xMBRTUTransmitFSM &rArr; vMBPortSerialEnable
+</UL>
+<BR>[Calls]<UL><LI><a href="#[13b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xMBPortSerialPutByte
+<LI><a href="#[e9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;vMBPortSerialEnable
+<LI><a href="#[e2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xMBPortEventPost
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> mb.o(i.eMBInit)
+</UL><P>
+<H3>
+Local Symbols
+</H3>
+<P><STRONG><a name="[15]"></a>Default_Handler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, startup_nuc472_442.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc472_442.o(RESET)
+</UL>
+<P><STRONG><a name="[c8]"></a>prvvUARTRxISR</STRONG> (Thumb, 10 bytes, Stack size 8 bytes, portserial.o(i.prvvUARTRxISR))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = prvvUARTRxISR
+</UL>
+<BR>[Called By]<UL><LI><a href="#[5a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;UART3_IRQHandler
+</UL>
+
+<P><STRONG><a name="[c9]"></a>prvvUARTTxReadyISR</STRONG> (Thumb, 10 bytes, Stack size 8 bytes, portserial.o(i.prvvUARTTxReadyISR))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = prvvUARTTxReadyISR
+</UL>
+<BR>[Called By]<UL><LI><a href="#[5a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;UART3_IRQHandler
+</UL>
+
+<P><STRONG><a name="[137]"></a>NVIC_EnableIRQ</STRONG> (Thumb, 24 bytes, Stack size 0 bytes, porttimer.o(i.NVIC_EnableIRQ))
+<BR><BR>[Called By]<UL><LI><a href="#[e6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xMBPortTimersInit
+<LI><a href="#[ea]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;vMBPortTimersEnable
+</UL>
+
+<P><STRONG><a name="[136]"></a>NVIC_SetPriority</STRONG> (Thumb, 32 bytes, Stack size 8 bytes, porttimer.o(i.NVIC_SetPriority))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = NVIC_SetPriority
+</UL>
+<BR>[Called By]<UL><LI><a href="#[e6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xMBPortTimersInit
+<LI><a href="#[ea]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;vMBPortTimersEnable
+</UL>
+
+<P><STRONG><a name="[135]"></a>TIMER_EnableInt</STRONG> (Thumb, 10 bytes, Stack size 0 bytes, porttimer.o(i.TIMER_EnableInt))
+<BR><BR>[Called By]<UL><LI><a href="#[e6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xMBPortTimersInit
+<LI><a href="#[ea]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;vMBPortTimersEnable
+</UL>
+
+<P><STRONG><a name="[133]"></a>TIMER_Stop</STRONG> (Thumb, 10 bytes, Stack size 0 bytes, porttimer.o(i.TIMER_Stop))
+<BR><BR>[Called By]<UL><LI><a href="#[e6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xMBPortTimersInit
+<LI><a href="#[eb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;vMBPortTimersDisable
+</UL>
+
+<P><STRONG><a name="[c7]"></a>prvvTIMERExpiredISR</STRONG> (Thumb, 10 bytes, Stack size 8 bytes, porttimer.o(i.prvvTIMERExpiredISR))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = prvvTIMERExpiredISR
+</UL>
+<BR>[Called By]<UL><LI><a href="#[29]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TMR0_IRQHandler
+</UL>
+
+<P><STRONG><a name="[122]"></a>rt_list_isempty</STRONG> (Thumb, 16 bytes, Stack size 0 bytes, idle.o(i.rt_list_isempty))
+<BR><BR>[Called By]<UL><LI><a href="#[121]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_thread_idle_excute
+</UL>
+
+<P><STRONG><a name="[81]"></a>rt_thread_idle_entry</STRONG> (Thumb, 20 bytes, Stack size 0 bytes, idle.o(i.rt_thread_idle_entry))
+<BR><BR>[Stack]<UL><LI>Max Depth = 136<LI>Call Chain = rt_thread_idle_entry &rArr; rt_thread_idle_excute &rArr; rt_object_delete &rArr; rt_free &rArr; rt_sem_take &rArr; rt_ipc_list_suspend &rArr; rt_thread_suspend &rArr; rt_schedule_remove_thread
+</UL>
+<BR>[Calls]<UL><LI><a href="#[121]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_thread_idle_excute
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> idle.o(i.rt_thread_idle_init)
+</UL>
+<P><STRONG><a name="[fc]"></a>rt_ipc_list_resume</STRONG> (Thumb, 24 bytes, Stack size 16 bytes, ipc.o(i.rt_ipc_list_resume))
+<BR><BR>[Stack]<UL><LI>Max Depth = 56<LI>Call Chain = rt_ipc_list_resume &rArr; rt_thread_resume &rArr; rt_timer_stop &rArr; _rt_timer_remove
+</UL>
+<BR>[Calls]<UL><LI><a href="#[fd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_thread_resume
+</UL>
+<BR>[Called By]<UL><LI><a href="#[f9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_sem_release
+</UL>
+
+<P><STRONG><a name="[fe]"></a>rt_ipc_list_suspend</STRONG> (Thumb, 108 bytes, Stack size 24 bytes, ipc.o(i.rt_ipc_list_suspend))
+<BR><BR>[Stack]<UL><LI>Max Depth = 56<LI>Call Chain = rt_ipc_list_suspend &rArr; rt_thread_suspend &rArr; rt_schedule_remove_thread
+</UL>
+<BR>[Calls]<UL><LI><a href="#[100]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_list_insert_before
+<LI><a href="#[ff]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_thread_suspend
+</UL>
+<BR>[Called By]<UL><LI><a href="#[f7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_sem_take
+</UL>
+
+<P><STRONG><a name="[101]"></a>rt_ipc_object_init</STRONG> (Thumb, 16 bytes, Stack size 8 bytes, ipc.o(i.rt_ipc_object_init))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = rt_ipc_object_init
+</UL>
+<BR>[Calls]<UL><LI><a href="#[102]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_list_init
+</UL>
+<BR>[Called By]<UL><LI><a href="#[111]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_sem_init
+</UL>
+
+<P><STRONG><a name="[102]"></a>rt_list_init</STRONG> (Thumb, 6 bytes, Stack size 0 bytes, ipc.o(i.rt_list_init))
+<BR><BR>[Called By]<UL><LI><a href="#[101]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_ipc_object_init
+</UL>
+
+<P><STRONG><a name="[100]"></a>rt_list_insert_before</STRONG> (Thumb, 14 bytes, Stack size 0 bytes, ipc.o(i.rt_list_insert_before))
+<BR><BR>[Called By]<UL><LI><a href="#[fe]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_ipc_list_suspend
+</UL>
+
+<P><STRONG><a name="[112]"></a>rt_list_isempty</STRONG> (Thumb, 16 bytes, Stack size 0 bytes, ipc.o(i.rt_list_isempty))
+<BR><BR>[Called By]<UL><LI><a href="#[f9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_sem_release
+</UL>
+
+<P><STRONG><a name="[f8]"></a>plug_holes</STRONG> (Thumb, 158 bytes, Stack size 12 bytes, mem.o(i.plug_holes))
+<BR><BR>[Stack]<UL><LI>Max Depth = 12<LI>Call Chain = plug_holes
+</UL>
+<BR>[Called By]<UL><LI><a href="#[f4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_free
+</UL>
+
+<P><STRONG><a name="[106]"></a>rt_list_insert_after</STRONG> (Thumb, 14 bytes, Stack size 0 bytes, object.o(i.rt_list_insert_after))
+<BR><BR>[Called By]<UL><LI><a href="#[10a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_object_init
+<LI><a href="#[104]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_object_allocate
+</UL>
+
+<P><STRONG><a name="[108]"></a>rt_list_remove</STRONG> (Thumb, 18 bytes, Stack size 0 bytes, object.o(i.rt_list_remove))
+<BR><BR>[Called By]<UL><LI><a href="#[107]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_object_delete
+<LI><a href="#[109]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_object_detach
+</UL>
+
+<P><STRONG><a name="[d2]"></a>_rt_scheduler_stack_check</STRONG> (Thumb, 54 bytes, Stack size 16 bytes, scheduler.o(i._rt_scheduler_stack_check))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = _rt_scheduler_stack_check
+</UL>
+<BR>[Calls]<UL><LI><a href="#[d3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_hw_interrupt_disable
+</UL>
+<BR>[Called By]<UL><LI><a href="#[10b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_schedule
+</UL>
+
+<P><STRONG><a name="[118]"></a>rt_list_init</STRONG> (Thumb, 6 bytes, Stack size 0 bytes, scheduler.o(i.rt_list_init))
+<BR><BR>[Called By]<UL><LI><a href="#[117]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_system_scheduler_init
+</UL>
+
+<P><STRONG><a name="[d4]"></a>_rt_thread_init</STRONG> (Thumb, 158 bytes, Stack size 48 bytes, thread.o(i._rt_thread_init))
+<BR><BR>[Stack]<UL><LI>Max Depth = 116<LI>Call Chain = _rt_thread_init &rArr; rt_timer_init &rArr; rt_object_init &rArr; rt_strncpy
+</UL>
+<BR>[Calls]<UL><LI><a href="#[d7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_timer_init
+<LI><a href="#[d6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_hw_stack_init
+<LI><a href="#[d5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_memset
+</UL>
+<BR>[Called By]<UL><LI><a href="#[f3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_thread_init
+<LI><a href="#[f1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_thread_create
+</UL>
+
+<P><STRONG><a name="[120]"></a>rt_list_insert_after</STRONG> (Thumb, 14 bytes, Stack size 0 bytes, thread.o(i.rt_list_insert_after))
+<BR><BR>[Called By]<UL><LI><a href="#[75]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_thread_exit
+</UL>
+
+<P><STRONG><a name="[124]"></a>rt_list_remove</STRONG> (Thumb, 18 bytes, Stack size 0 bytes, thread.o(i.rt_list_remove))
+<BR><BR>[Called By]<UL><LI><a href="#[126]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_thread_yield
+<LI><a href="#[76]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_thread_timeout
+<LI><a href="#[fd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_thread_resume
+</UL>
+
+<P><STRONG><a name="[75]"></a>rt_thread_exit</STRONG> (Thumb, 76 bytes, Stack size 16 bytes, thread.o(i.rt_thread_exit))
+<BR><BR>[Stack]<UL><LI>Max Depth = 56<LI>Call Chain = rt_thread_exit &rArr; rt_schedule &rArr; _rt_scheduler_stack_check
+</UL>
+<BR>[Calls]<UL><LI><a href="#[11f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_object_is_systemobject
+<LI><a href="#[109]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_object_detach
+<LI><a href="#[f6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_hw_interrupt_enable
+<LI><a href="#[d3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_hw_interrupt_disable
+<LI><a href="#[11e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_timer_detach
+<LI><a href="#[120]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_list_insert_after
+<LI><a href="#[110]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_schedule_remove_thread
+<LI><a href="#[10b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_schedule
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> thread.o(i._rt_thread_init)
+</UL>
+<P><STRONG><a name="[d8]"></a>_rt_timer_init</STRONG> (Thumb, 66 bytes, Stack size 32 bytes, timer.o(i._rt_timer_init))
+<BR><BR>[Stack]<UL><LI>Max Depth = 32<LI>Call Chain = _rt_timer_init
+</UL>
+<BR>[Calls]<UL><LI><a href="#[d9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_list_init
+</UL>
+<BR>[Called By]<UL><LI><a href="#[d7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_timer_init
+</UL>
+
+<P><STRONG><a name="[129]"></a>_rt_timer_remove</STRONG> (Thumb, 46 bytes, Stack size 8 bytes, timer.o(i._rt_timer_remove))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = _rt_timer_remove
+</UL>
+<BR>[Called By]<UL><LI><a href="#[127]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_timer_check
+<LI><a href="#[125]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_timer_stop
+<LI><a href="#[11e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_timer_detach
+</UL>
+
+<P><STRONG><a name="[d9]"></a>rt_list_init</STRONG> (Thumb, 6 bytes, Stack size 0 bytes, timer.o(i.rt_list_init))
+<BR><BR>[Called By]<UL><LI><a href="#[11b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_system_timer_init
+<LI><a href="#[d8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_rt_timer_init
+</UL>
+
+<P><STRONG><a name="[12b]"></a>rt_list_insert_after</STRONG> (Thumb, 14 bytes, Stack size 0 bytes, timer.o(i.rt_list_insert_after))
+<BR><BR>[Called By]<UL><LI><a href="#[115]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_timer_start
+</UL>
+
+<P><STRONG><a name="[12a]"></a>rt_list_isempty</STRONG> (Thumb, 16 bytes, Stack size 0 bytes, timer.o(i.rt_list_isempty))
+<BR><BR>[Called By]<UL><LI><a href="#[127]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_timer_check
+</UL>
+
+<P><STRONG><a name="[7f]"></a>rt_thread_entry_PowerMeasurment</STRONG> (Thumb, 38 bytes, Stack size 0 bytes, application.o(i.rt_thread_entry_PowerMeasurment))
+<BR><BR>[Stack]<UL><LI>Max Depth = 136<LI>Call Chain = rt_thread_entry_PowerMeasurment &rArr; PowerMeasurment &rArr; Set_Watthr2Display &rArr; __2sprintf
+</UL>
+<BR>[Calls]<UL><LI><a href="#[b1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PowerMeasurment
+<LI><a href="#[11c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_thread_delay
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> application.o(i.rt_application_init)
+</UL>
+<P><STRONG><a name="[80]"></a>rt_thread_entry_Rs485comm</STRONG> (Thumb, 30 bytes, Stack size 0 bytes, application.o(i.rt_thread_entry_Rs485comm))
+<BR><BR>[Stack]<UL><LI>Max Depth = 64<LI>Call Chain = rt_thread_entry_Rs485comm &rArr; rt_thread_delay &rArr; rt_thread_sleep &rArr; rt_schedule &rArr; _rt_scheduler_stack_check
+</UL>
+<BR>[Calls]<UL><LI><a href="#[e0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;eMBPoll
+<LI><a href="#[11c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_thread_delay
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> application.o(i.rt_application_init)
+</UL>
+<P><STRONG><a name="[cd]"></a>_fp_digits</STRONG> (Thumb, 318 bytes, Stack size 56 bytes, printfa.o(i._fp_digits), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[8e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_dmul
+<LI><a href="#[88]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_dadd
+<LI><a href="#[8f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_ddiv
+<LI><a href="#[90]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_d2ulz
+<LI><a href="#[ce]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_cdrcmple
+<LI><a href="#[85]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_uldivmod
+</UL>
+<BR>[Called By]<UL><LI><a href="#[cc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_printf_core
+</UL>
+
+<P><STRONG><a name="[cc]"></a>_printf_core</STRONG> (Thumb, 1734 bytes, Stack size 136 bytes, printfa.o(i._printf_core), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[d1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_uidivmod
+<LI><a href="#[cf]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_printf_pre_padding
+<LI><a href="#[d0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_printf_post_padding
+<LI><a href="#[cd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_fp_digits
+<LI><a href="#[85]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_uldivmod
+</UL>
+<BR>[Called By]<UL><LI><a href="#[cb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__0sprintf
+</UL>
+
+<P><STRONG><a name="[d0]"></a>_printf_post_padding</STRONG> (Thumb, 38 bytes, Stack size 24 bytes, printfa.o(i._printf_post_padding), UNUSED)
+<BR><BR>[Called By]<UL><LI><a href="#[cc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_printf_core
+</UL>
+
+<P><STRONG><a name="[cf]"></a>_printf_pre_padding</STRONG> (Thumb, 46 bytes, Stack size 24 bytes, printfa.o(i._printf_pre_padding), UNUSED)
+<BR><BR>[Called By]<UL><LI><a href="#[cc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_printf_core
+</UL>
+
+<P><STRONG><a name="[74]"></a>_sputc</STRONG> (Thumb, 10 bytes, Stack size 0 bytes, printfa.o(i._sputc))
+<BR><BR>[Called By]<UL><LI><a href="#[cb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__0sprintf
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> printfa.o(i.__0sprintf)
+</UL><P>
+<H3>
+Undefined Global Symbols
+</H3><HR></body></html>
